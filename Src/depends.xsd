@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="depends"
+    targetNamespace="http://github.com/Src/depends.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://github.com/Src/depends.xsd"
+    xmlns:mstns="http://github.com/Src/depends.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<xs:element name="depends">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="file" minOccurs="0" maxOccurs="unbounded"></xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="file">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="depend" minOccurs="0" maxOccurs="unbounded"></xs:element>
+			</xs:sequence>
+			<xs:attribute name="name" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="depend">
+		<xs:complexType>
+			<xs:attribute name="file" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

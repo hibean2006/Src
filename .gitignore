@@ -1,0 +1,12 @@
+#Compliled Files#
+*.obj
+*.exe
+*.dll
+*.pdb
+[Bb]in
+[Oo]bj
+[Dd]ebug*/
+TestResults
+#Resharper Files#
+_ReSharper*/
+

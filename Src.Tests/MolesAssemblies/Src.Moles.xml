@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Src.Moles</name>
+    </assembly>
+    <members>
+        <member name="T:Src.Moles.MStringHelper">
+            <summary>Mole type of <see cref="T:Src.StringHelper"/>
+            .</summary>
+        </member>
+        <member name="M:Src.Moles.MStringHelper.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Src.Moles.MStringHelper.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Src.Moles.MStringHelper.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Src.Moles.MStringHelper.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Src.Moles.MStringHelper.BetweenStringStringString">
+            <summary>Sets the mole of <see cref="M:Src.StringHelper.Between(System.String,System.String,System.String)"/>
+            </summary>
+        </member>
+    </members>
+</doc>
