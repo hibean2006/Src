@@ -4,6 +4,40 @@
         <name>Src.Moles</name>
     </assembly>
     <members>
+        <member name="T:Src.Moles.MFileHelper">
+            <summary>Mole type of <see cref="T:Src.FileHelper"/>
+            .</summary>
+        </member>
+        <member name="M:Src.Moles.MFileHelper.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Src.Moles.MFileHelper.#ctor(Src.FileHelper)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Src.Moles.MFileHelper.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Src.Moles.MFileHelper.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Src.Moles.MFileHelper.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Src.Moles.MFileHelper.Constructor">
+            <summary>Sets the mole of <see cref="M:Src.FileHelper.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MFileHelper.EnsureDirectoryString">
+            <summary>Sets the mole of <see cref="M:Src.FileHelper.EnsureDirectory(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MFileHelper.GetPhysicalPathString">
+            <summary>Sets the mole of <see cref="M:Src.FileHelper.GetPhysicalPath(System.String)"/>
+            </summary>
+        </member>
+        <member name="T:Src.Moles.MFileHelper.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
         <member name="T:Src.Moles.MStringHelper">
             <summary>Mole type of <see cref="T:Src.StringHelper"/>
             .</summary>
@@ -23,6 +57,22 @@
         <member name="P:Src.Moles.MStringHelper.BetweenStringStringString">
             <summary>Sets the mole of <see cref="M:Src.StringHelper.Between(System.String,System.String,System.String)"/>
             </summary>
+        </member>
+        <member name="T:Src.Moles.SFileHelper">
+            <summary>Stub type of <see cref="T:Src.FileHelper"/>
+            .</summary>
+        </member>
+        <member name="M:Src.Moles.SFileHelper.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Src.Moles.SFileHelper.InitializeStub">
+            <summary>Initializes a new instance of type SFileHelper</summary>
+        </member>
+        <member name="P:Src.Moles.SFileHelper.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Src.Moles.SFileHelper.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
         </member>
     </members>
 </doc>

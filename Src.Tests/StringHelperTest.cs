@@ -36,6 +36,28 @@ namespace Src
         }
 
         [TestMethod]
+        public void Between1()
+        {
+            string s;
+            s = this.Between("abc", "", "c");
+            Assert.AreEqual<string>("ab", s);
+        }
+        [TestMethod]
+        public void Between2()
+        {
+            string s;
+            s = this.Between("abc", "", "");
+            Assert.AreEqual<string>("", s);
+        }
+        [TestMethod]
+        public void Between3()
+        {
+            string s;
+            s = this.Between("abca", "b", "a");
+            Assert.AreEqual<string>("c", s);
+        }
+
+        [TestMethod]
         public void Between7()
         {
             string s;

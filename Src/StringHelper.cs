@@ -1,7 +1,8 @@
 ﻿/**
- * Haibin Zou
+ * Haibin Zou=>zhb
  * hibean2006@126.com
  * 2011-11-16 Created
+ * 2011-11-17 zhb 修正：Between("abca","b","a") 返回 ""，现在返回为 "c"
  * 
  * */
 
@@ -43,10 +44,16 @@ namespace Src
             }
 
             int leftIndex = source.IndexOf(left);
-            int rightIndex = source.IndexOf(right);
+            //left 不存在
+            if (leftIndex < 0)
+            {
+                return string.Empty;
+            }
 
-            //left 或 right不存在，或者 right 的位置在 left 左边
-            if (leftIndex < 0 || rightIndex < 0 || rightIndex < leftIndex + left.Length)
+            int rightIndex = source.IndexOf(right, leftIndex + left.Length);
+
+            //right不存在（或者在 left 左边）
+            if (rightIndex < 0)
             {
                 return string.Empty;
             }
