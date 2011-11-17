@@ -3,66 +3,121 @@
     <RecentFiles>
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:depends.xsd" caret="853" fromTop="13" />
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:depends.xml" caret="107" fromTop="2" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="1332" fromTop="8" />
-      <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:StringHelperTest.cs" caret="1153" fromTop="6" />
+      <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:StringHelperTest.cs" caret="1520" fromTop="7" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="18" fromTop="0" />
+      <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:FileHelperTest.cs" caret="219" fromTop="4" />
+      <File id="803B416E-AC33-4499-BA94-CD7309037E62/f:FileHelper.cs/l:..?..?..?短信?项目?信元?yancao-20110126?Ideal.CommonLib?FileHelper.cs" caret="2237" fromTop="2" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:FileHelper.cs" caret="1200" fromTop="4" />
     </RecentFiles>
     <RecentEdits>
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:depends.xsd" caret="824" fromTop="14" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:depends.xsd" caret="925" fromTop="19" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:depends.xsd" caret="824" fromTop="7" />
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:depends.xsd" caret="853" fromTop="13" />
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:depends.xml" caret="115" fromTop="2" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="8" fromTop="1" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="584" fromTop="9" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="494" fromTop="8" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="166" fromTop="4" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="584" fromTop="9" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="1467" fromTop="12" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="651" fromTop="9" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="561" fromTop="8" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="233" fromTop="4" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="651" fromTop="9" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="1599" fromTop="12" />
       <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:StringHelperTest.cs" caret="0" fromTop="0" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="1449" fromTop="9" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="1232" fromTop="9" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="1035" fromTop="9" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="1642" fromTop="9" />
-      <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:StringHelperTest.cs" caret="1308" fromTop="11" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="1594" fromTop="9" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="1102" fromTop="9" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="1787" fromTop="9" />
+      <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:StringHelperTest.cs" caret="1520" fromTop="15" />
+      <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:StringHelperTest.cs" caret="1710" fromTop="16" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="1408" fromTop="8" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="1343" fromTop="6" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="1601" fromTop="32" />
+      <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:StringHelperTest.cs" caret="1904" fromTop="21" />
+      <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:StringHelperTest.cs" caret="1887" fromTop="20" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="89" fromTop="4" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:FileHelper.cs" caret="23" fromTop="1" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:FileHelper.cs" caret="2496" fromTop="14" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:FileHelper.cs" caret="1608" fromTop="7" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:FileHelper.cs" caret="2482" fromTop="11" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:FileHelper.cs" caret="2369" fromTop="12" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:FileHelper.cs" caret="236" fromTop="6" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:FileHelper.cs" caret="807" fromTop="8" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:FileHelper.cs" caret="1667" fromTop="13" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:FileHelper.cs" caret="1486" fromTop="13" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:FileHelper.cs" caret="1285" fromTop="13" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:FileHelper.cs" caret="798" fromTop="13" />
     </RecentEdits>
   </RecentFiles>
   <CompletionStatisticsManager>
     <ItemStatistics item="CSharpCodeCompletionContext">
-      <Item value="static" priority="94" />
+      <Item value="static" priority="158" />
       <Item value="&lt;see cref=&quot;&quot;/&gt;" priority="25" />
-      <Item value="public" priority="63" />
-      <Item value="string" priority="127" />
+      <Item value="public" priority="95" />
+      <Item value="string" priority="351" />
       <Item value="head" priority="31" />
       <Item value="tail" priority="31" />
-      <Item value="&lt;example&gt;&lt;/example&gt;" priority="25" />
-      <Item value="&lt;code&gt;&lt;/code&gt;" priority="25" />
+      <Item value="&lt;example&gt;&lt;/example&gt;" priority="51" />
+      <Item value="&lt;code&gt;&lt;/code&gt;" priority="51" />
       <Item value="source" priority="159" />
-      <Item value="left" priority="255" />
+      <Item value="left" priority="287" />
       <Item value="right" priority="159" />
-      <Item value="return" priority="127" />
+      <Item value="return" priority="319" />
       <Item value="int" priority="63" />
-      <Item value="if" priority="127" />
-      <Item value="leftIndex" priority="126" />
+      <Item value="if" priority="383" />
+      <Item value="leftIndex" priority="190" />
       <Item value="rightIndex" priority="95" />
-      <Item value="null" priority="127" />
-      <Item value="throw" priority="63" />
-      <Item value="new" priority="63" />
-      <Item value="ArgumentNullException" priority="57" />
+      <Item value="null" priority="223" />
+      <Item value="throw" priority="127" />
+      <Item value="new" priority="127" />
+      <Item value="ArgumentNullException" priority="86" />
       <Item value="TestMethod" priority="31" />
-      <Item value="void" priority="31" />
+      <Item value="void" priority="63" />
+      <Item value="GetPhysicalPath`0" priority="31" />
+      <Item value="path" priority="223" />
+      <Item value="Path`0" priority="95" />
+      <Item value="physcialPath" priority="63" />
+      <Item value="Directory`0" priority="63" />
+      <Item value="dirPath" priority="95" />
+      <Item value="&lt;remarks&gt;&lt;/remarks&gt;" priority="51" />
+      <Item value="ApplicationException" priority="29" />
+      <Item value="AppDomain`0" priority="63" />
+      <Item value="&lt;exception cref=&quot;&quot;&gt;&lt;/exception&gt;" priority="25" />
+      <Item value="System" priority="63" />
+      <Item value="ArgumentException`0" priority="31" />
+      <Item value="NotSupportedException`0" priority="31" />
+      <Item value="PathTooLongException`0" priority="31" />
+      <Item value="Security" priority="27" />
+      <Item value="SecurityException`0" priority="27" />
     </ItemStatistics>
     <ItemStatistics item="Doc Comment tags">
-      <Item value="&lt;see cref=&quot;&quot;/&gt;" priority="24" />
-      <Item value="&lt;example&gt;&lt;/example&gt;" priority="4" />
-      <Item value="&lt;code&gt;&lt;/code&gt;" priority="4" />
+      <Item value="&lt;see cref=&quot;&quot;/&gt;" priority="29" />
+      <Item value="&lt;example&gt;&lt;/example&gt;" priority="9" />
+      <Item value="&lt;code&gt;&lt;/code&gt;" priority="9" />
+      <Item value="&lt;remarks&gt;&lt;/remarks&gt;" priority="9" />
+      <Item value="&lt;exception cref=&quot;&quot;&gt;&lt;/exception&gt;" priority="4" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.String">
       <Item value="IndexOf`0" priority="53" />
       <Item value="Substring`0" priority="26" />
-      <Item value="Length" priority="80" />
+      <Item value="Length" priority="107" />
+      <Item value="StartsWith`0" priority="26" />
+      <Item value="Remove`0" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.String">
-      <Item value="Empty" priority="26" />
+      <Item value="Empty" priority="53" />
+      <Item value="Format`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Directory">
+      <Item value="Exists`0" priority="53" />
+      <Item value="CreateDirectory`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Path">
+      <Item value="GetDirectoryName`0" priority="26" />
+      <Item value="GetFullPath`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.AppDomain">
+      <Item value="CreateDomain`0" priority="26" />
+      <Item value="CurrentDomain" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.AppDomain">
+      <Item value="BaseDirectory" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.Path">
+      <Item value="GetFullPath`0" priority="27" />
     </ItemStatistics>
   </CompletionStatisticsManager>
   <NAntValidationSettings>
