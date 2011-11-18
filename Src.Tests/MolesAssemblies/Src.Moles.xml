@@ -4,6 +4,139 @@
         <name>Src.Moles</name>
     </assembly>
     <members>
+        <member name="T:Src.Moles.MDbConnectionNotFoundException">
+            <summary>Mole type of <see cref="T:Src.DbConnectionNotFoundException"/>
+            .</summary>
+        </member>
+        <member name="M:Src.Moles.MDbConnectionNotFoundException.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Src.Moles.MDbConnectionNotFoundException.#ctor(Src.DbConnectionNotFoundException)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Src.Moles.MDbConnectionNotFoundException.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Src.Moles.MDbConnectionNotFoundException.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Src.Moles.MDbConnectionNotFoundException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Src.Moles.MDbConnectionNotFoundException.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Src.Moles.MDbConnectionNotFoundException.Constructor">
+            <summary>Sets the mole of <see cref="M:Src.DbConnectionNotFoundException.#ctor"/>
+            </summary>
+        </member>
+        <member name="T:Src.Moles.MDbConnectionNotFoundException.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="T:Src.Moles.MDbHelper">
+            <summary>Mole type of <see cref="T:Src.DbHelper"/>
+            .</summary>
+        </member>
+        <member name="M:Src.Moles.MDbHelper.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Src.Moles.MDbHelper.#ctor(Src.DbHelper)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Src.Moles.MDbHelper.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Src.Moles.MDbHelper.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Src.Moles.MDbHelper.Bind(Src.IDbHelper)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Src.Moles.MDbHelper.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Src.Moles.MDbHelper.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Src.Moles.MDbHelper.ConnectString">
+            <summary>Sets the mole of <see cref="M:Src.DbHelper.Connect(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDbHelper.ConstructorString">
+            <summary>Sets the mole of <see cref="M:Src.DbHelper.#ctor(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDbHelper.Create">
+            <summary>Sets the mole of <see cref="M:Src.DbHelper.Create"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDbHelper.CreateParameterNameInt32">
+            <summary>Sets the mole of <see cref="M:Src.DbHelper.CreateParameterName(System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDbHelper.CreateStringString">
+            <summary>Sets the mole of <see cref="M:Src.DbHelper.Create(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDbHelper.Dispose">
+            <summary>Sets the mole of <see cref="M:Src.DbHelper.Dispose"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDbHelper.ExecuteCommandStringObjectArray">
+            <summary>Sets the mole of <see cref="M:Src.DbHelper.ExecuteCommand(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDbHelper.ExecuteReaderStringObjectArray">
+            <summary>Sets the mole of <see cref="M:Src.DbHelper.ExecuteReader(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDbHelper.ExecuteScalarStringObjectArray">
+            <summary>Sets the mole of <see cref="M:Src.DbHelper.ExecuteScalar(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDbHelper.FirstStringObjectArray">
+            <summary>Sets the mole of <see cref="M:Src.DbHelper.First(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDbHelper.PrepareStringObjectArray">
+            <summary>Sets the mole of <see cref="M:Src.DbHelper.Prepare(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="T:Src.Moles.MDbHelper.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Src.Moles.MDbHelper.AllInstances.ConnectString">
+            <summary>Sets the mole of <see cref="M:Src.DbHelper.Connect(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDbHelper.AllInstances.CreateParameterNameInt32">
+            <summary>Sets the mole of <see cref="M:Src.DbHelper.CreateParameterName(System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDbHelper.AllInstances.Dispose">
+            <summary>Sets the mole of <see cref="M:Src.DbHelper.Dispose"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDbHelper.AllInstances.ExecuteCommandStringObjectArray">
+            <summary>Sets the mole of <see cref="M:Src.DbHelper.ExecuteCommand(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDbHelper.AllInstances.ExecuteReaderStringObjectArray">
+            <summary>Sets the mole of <see cref="M:Src.DbHelper.ExecuteReader(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDbHelper.AllInstances.ExecuteScalarStringObjectArray">
+            <summary>Sets the mole of <see cref="M:Src.DbHelper.ExecuteScalar(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDbHelper.AllInstances.FirstStringObjectArray">
+            <summary>Sets the mole of <see cref="M:Src.DbHelper.First(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDbHelper.AllInstances.PrepareStringObjectArray">
+            <summary>Sets the mole of <see cref="M:Src.DbHelper.Prepare(System.String,System.Object[])"/>
+            </summary>
+        </member>
         <member name="T:Src.Moles.MFileHelper">
             <summary>Mole type of <see cref="T:Src.FileHelper"/>
             .</summary>
@@ -58,6 +191,22 @@
             <summary>Sets the mole of <see cref="M:Src.StringHelper.Between(System.String,System.String,System.String)"/>
             </summary>
         </member>
+        <member name="T:Src.Moles.SDbConnectionNotFoundException">
+            <summary>Stub type of <see cref="T:Src.DbConnectionNotFoundException"/>
+            .</summary>
+        </member>
+        <member name="M:Src.Moles.SDbConnectionNotFoundException.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Src.Moles.SDbConnectionNotFoundException.InitializeStub">
+            <summary>Initializes a new instance of type SDbConnectionNotFoundException</summary>
+        </member>
+        <member name="P:Src.Moles.SDbConnectionNotFoundException.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Src.Moles.SDbConnectionNotFoundException.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
         <member name="T:Src.Moles.SFileHelper">
             <summary>Stub type of <see cref="T:Src.FileHelper"/>
             .</summary>
@@ -73,6 +222,61 @@
         </member>
         <member name="P:Src.Moles.SFileHelper.InstanceBehavior">
             <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Src.Moles.SIDbHelper">
+            <summary>Stub type of <see cref="T:Src.IDbHelper"/>
+            .</summary>
+        </member>
+        <member name="M:Src.Moles.SIDbHelper.#ctor">
+            <summary>Initializes a new instance of type SIDbHelper</summary>
+        </member>
+        <member name="F:Src.Moles.SIDbHelper.ConnectString">
+            <summary>Sets the stub of <see cref="M:Src.IDbHelper.Connect(System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Src.Moles.SIDbHelper.Dispose">
+            <summary>Sets the stub of <see cref="M:System.IDisposable.Dispose"/>
+            </summary>
+        </member>
+        <member name="F:Src.Moles.SIDbHelper.ExecuteCommandStringObjectArray">
+            <summary>Sets the stub of <see cref="M:Src.IDbHelper.ExecuteCommand(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="F:Src.Moles.SIDbHelper.ExecuteReaderStringObjectArray">
+            <summary>Sets the stub of <see cref="M:Src.IDbHelper.ExecuteReader(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="F:Src.Moles.SIDbHelper.ExecuteScalarStringObjectArray">
+            <summary>Sets the stub of <see cref="M:Src.IDbHelper.ExecuteScalar(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="F:Src.Moles.SIDbHelper.FirstStringObjectArray">
+            <summary>Sets the stub of <see cref="M:Src.IDbHelper.First(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIDbHelper.s::Src#IDbHelper#Connect(System.String)">
+            <summary>Sets the stub of <see cref="M:Src.IDbHelper.Connect(System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIDbHelper.s::Src#IDbHelper#ExecuteCommand(System.String,System.Object[])">
+            <summary>Sets the stub of <see cref="M:Src.IDbHelper.ExecuteCommand(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIDbHelper.s::Src#IDbHelper#ExecuteReader(System.String,System.Object[])">
+            <summary>Sets the stub of <see cref="M:Src.IDbHelper.ExecuteReader(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIDbHelper.s::Src#IDbHelper#ExecuteScalar(System.String,System.Object[])">
+            <summary>Sets the stub of <see cref="M:Src.IDbHelper.ExecuteScalar(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIDbHelper.s::Src#IDbHelper#First(System.String,System.Object[])">
+            <summary>Sets the stub of <see cref="M:Src.IDbHelper.First(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIDbHelper.global::System#IDisposable#Dispose">
+            <summary>Sets the stub of <see cref="M:System.IDisposable.Dispose"/>
+            </summary>
         </member>
     </members>
 </doc>

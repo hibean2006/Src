@@ -35,6 +35,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.ExtendedReflection, Version=0.94.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.Moles.Framework, Version=0.94.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.Pex.Framework, Version=0.94.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
@@ -43,6 +44,7 @@
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
+    <Reference Include="System.Data" />
   </ItemGroup>
   <ItemGroup>
     <CodeAnalysisDependentAssemblyPaths Condition=" '$(VS100COMNTOOLS)' != '' " Include="$(VS100COMNTOOLS)..\IDE\PrivateAssemblies">
@@ -57,6 +59,13 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Compile Include="DbHelperTest.Create.g.cs">
+      <DependentUpon>DbHelperTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DbHelperTest.Create01.g.cs">
+      <DependentUpon>DbHelperTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DbHelperTest.cs" />
     <Compile Include="FileHelperTest.cs" />
     <Compile Include="FileHelperTest.EnsureDirectory.g.cs">
       <DependentUpon>FileHelperTest.cs</DependentUpon>

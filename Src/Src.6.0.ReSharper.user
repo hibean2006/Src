@@ -1,68 +1,75 @@
 <Configuration>
   <RecentFiles>
     <RecentFiles>
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:depends.xsd" caret="853" fromTop="13" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:depends.xml" caret="107" fromTop="2" />
-      <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:StringHelperTest.cs" caret="1520" fromTop="7" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="18" fromTop="0" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:FileHelper.cs" caret="0" fromTop="0" />
+      <File id="d:杂项文件/f:FileHelper.cs" caret="0" fromTop="0" />
       <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:FileHelperTest.cs" caret="219" fromTop="4" />
-      <File id="803B416E-AC33-4499-BA94-CD7309037E62/f:FileHelper.cs/l:..?..?..?短信?项目?信元?yancao-20110126?Ideal.CommonLib?FileHelper.cs" caret="2237" fromTop="2" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:FileHelper.cs" caret="1200" fromTop="4" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="18" fromTop="0" />
+      <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:StringHelperTest.cs" caret="1520" fromTop="7" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:depends.xsd" caret="853" fromTop="13" />
+      <File id="192C3801-0E0A-47C5-805E-D01E38D24836/f:machine.config/l:C!?Windows?Microsoft.NET?Framework64?v2.0.50727?CONFIG?machine.config" caret="20584" fromTop="2" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:depends.xml" caret="203" fromTop="4" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbConnectionNotFoundException.cs" caret="79" fromTop="0" />
+      <File id="192C3801-0E0A-47C5-805E-D01E38D24836/f:Web.config/l:..?..?..?Files?考评员管理系统?Deploy?Web.config" caret="3764" fromTop="6" />
+      <File id="192C3801-0E0A-47C5-805E-D01E38D24836/f:LightningTaskProvider.cs/l:..?..?..?VsProjects?MyTaskes?MyTaskes.LightningTask?LightningTaskProvider.cs" caret="441" fromTop="9" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:IDbHelper.cs" caret="732" fromTop="8" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="3384" fromTop="13" />
+      <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:DbHelperTest.cs" caret="0" fromTop="0" />
     </RecentFiles>
     <RecentEdits>
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:depends.xsd" caret="853" fromTop="13" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:depends.xml" caret="115" fromTop="2" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="651" fromTop="9" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="561" fromTop="8" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="233" fromTop="4" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="651" fromTop="9" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="1599" fromTop="12" />
-      <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:StringHelperTest.cs" caret="0" fromTop="0" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="1594" fromTop="9" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="1102" fromTop="9" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="1787" fromTop="9" />
-      <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:StringHelperTest.cs" caret="1520" fromTop="15" />
-      <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:StringHelperTest.cs" caret="1710" fromTop="16" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="1408" fromTop="8" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="1343" fromTop="6" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="1601" fromTop="32" />
-      <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:StringHelperTest.cs" caret="1904" fromTop="21" />
-      <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:StringHelperTest.cs" caret="1887" fromTop="20" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="89" fromTop="4" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:FileHelper.cs" caret="23" fromTop="1" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:FileHelper.cs" caret="2496" fromTop="14" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:FileHelper.cs" caret="1608" fromTop="7" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:FileHelper.cs" caret="2482" fromTop="11" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:FileHelper.cs" caret="2369" fromTop="12" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:FileHelper.cs" caret="236" fromTop="6" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:FileHelper.cs" caret="807" fromTop="8" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:FileHelper.cs" caret="1667" fromTop="13" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:FileHelper.cs" caret="1486" fromTop="13" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:FileHelper.cs" caret="1285" fromTop="13" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:FileHelper.cs" caret="798" fromTop="13" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="8093" fromTop="21" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="77" fromTop="4" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="2680" fromTop="8" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="2612" fromTop="8" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="2173" fromTop="10" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="2417" fromTop="14" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="223" fromTop="10" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="223" fromTop="8" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="223" fromTop="3" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:depends.xml" caret="203" fromTop="4" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbConnectionNotFoundException.cs" caret="0" fromTop="0" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbConnectionNotFoundException.cs" caret="79" fromTop="5" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="2956" fromTop="19" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="715" fromTop="9" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="1253" fromTop="16" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="1112" fromTop="15" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="3360" fromTop="9" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="8093" fromTop="9" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="8093" fromTop="18" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="8093" fromTop="11" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="5511" fromTop="13" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="1783" fromTop="3" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="6113" fromTop="11" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="7791" fromTop="14" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="5694" fromTop="12" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="8087" fromTop="13" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="1949" fromTop="11" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="322" fromTop="7" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="3484" fromTop="13" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="3483" fromTop="13" />
     </RecentEdits>
   </RecentFiles>
   <CompletionStatisticsManager>
     <ItemStatistics item="CSharpCodeCompletionContext">
-      <Item value="static" priority="158" />
-      <Item value="&lt;see cref=&quot;&quot;/&gt;" priority="25" />
-      <Item value="public" priority="95" />
-      <Item value="string" priority="351" />
+      <Item value="static" priority="190" />
+      <Item value="&lt;see cref=&quot;&quot;/&gt;" priority="155" />
+      <Item value="public" priority="318" />
+      <Item value="string" priority="831" />
       <Item value="head" priority="31" />
       <Item value="tail" priority="31" />
-      <Item value="&lt;example&gt;&lt;/example&gt;" priority="51" />
+      <Item value="&lt;example&gt;&lt;/example&gt;" priority="181" />
       <Item value="&lt;code&gt;&lt;/code&gt;" priority="51" />
       <Item value="source" priority="159" />
       <Item value="left" priority="287" />
       <Item value="right" priority="159" />
-      <Item value="return" priority="319" />
-      <Item value="int" priority="63" />
-      <Item value="if" priority="383" />
+      <Item value="return" priority="607" />
+      <Item value="int" priority="95" />
+      <Item value="if" priority="415" />
       <Item value="leftIndex" priority="190" />
       <Item value="rightIndex" priority="95" />
       <Item value="null" priority="223" />
-      <Item value="throw" priority="127" />
-      <Item value="new" priority="127" />
+      <Item value="throw" priority="223" />
+      <Item value="new" priority="223" />
       <Item value="ArgumentNullException" priority="86" />
       <Item value="TestMethod" priority="31" />
       <Item value="void" priority="63" />
@@ -72,8 +79,8 @@
       <Item value="physcialPath" priority="63" />
       <Item value="Directory`0" priority="63" />
       <Item value="dirPath" priority="95" />
-      <Item value="&lt;remarks&gt;&lt;/remarks&gt;" priority="51" />
-      <Item value="ApplicationException" priority="29" />
+      <Item value="&lt;remarks&gt;&lt;/remarks&gt;" priority="77" />
+      <Item value="ApplicationException" priority="58" />
       <Item value="AppDomain`0" priority="63" />
       <Item value="&lt;exception cref=&quot;&quot;&gt;&lt;/exception&gt;" priority="25" />
       <Item value="System" priority="63" />
@@ -82,12 +89,49 @@
       <Item value="PathTooLongException`0" priority="31" />
       <Item value="Security" priority="27" />
       <Item value="SecurityException`0" priority="27" />
+      <Item value="IDbHelper`0" priority="127" />
+      <Item value="const" priority="159" />
+      <Item value="ConfigurationManager`0" priority="159" />
+      <Item value="Create`0" priority="31" />
+      <Item value="DbHelper" priority="28" />
+      <Item value="provider" priority="63" />
+      <Item value="connection" priority="31" />
+      <Item value="var" priority="31" />
+      <Item value="ConnectionStringSettings`0" priority="31" />
+      <Item value="settings" priority="63" />
+      <Item value="class" priority="30" />
+      <Item value="ApplicationException`0" priority="31" />
+      <Item value="DbConnectionNotFoundException" priority="29" />
+      <Item value="ctor" priority="63" />
+      <Item value="base" priority="63" />
+      <Item value="message" priority="31" />
+      <Item value="DbConnectionNotFoundException`0" priority="31" />
+      <Item value="DbHelper`0" priority="31" />
+      <Item value="private" priority="63" />
+      <Item value="switch" priority="31" />
+      <Item value="this" priority="63" />
+      <Item value="readonly" priority="31" />
+      <Item value="case" priority="223" />
+      <Item value="SqlServer" priority="31" />
+      <Item value="position" priority="159" />
+      <Item value="Oracle" priority="31" />
+      <Item value="Sqlite" priority="31" />
+      <Item value="Odbc" priority="31" />
+      <Item value="SqlCe" priority="31" />
+      <Item value="#region" priority="31" />
+      <Item value="MySql" priority="31" />
+      <Item value="CreateParameterName`0" priority="31" />
+      <Item value="i" priority="31" />
+      <Item value="OleDb" priority="31" />
+      <Item value="DbProviderFactories`0" priority="63" />
+      <Item value="DataTableNewRowEventArgs`0" priority="31" />
+      <Item value="NotSupportedException" priority="28" />
     </ItemStatistics>
     <ItemStatistics item="Doc Comment tags">
-      <Item value="&lt;see cref=&quot;&quot;/&gt;" priority="29" />
-      <Item value="&lt;example&gt;&lt;/example&gt;" priority="9" />
+      <Item value="&lt;see cref=&quot;&quot;/&gt;" priority="64" />
+      <Item value="&lt;example&gt;&lt;/example&gt;" priority="34" />
       <Item value="&lt;code&gt;&lt;/code&gt;" priority="9" />
-      <Item value="&lt;remarks&gt;&lt;/remarks&gt;" priority="9" />
+      <Item value="&lt;remarks&gt;&lt;/remarks&gt;" priority="14" />
       <Item value="&lt;exception cref=&quot;&quot;&gt;&lt;/exception&gt;" priority="4" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.String">
@@ -99,7 +143,7 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.String">
       <Item value="Empty" priority="53" />
-      <Item value="Format`0" priority="26" />
+      <Item value="Format`0" priority="161" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.IO.Directory">
       <Item value="Exists`0" priority="53" />
@@ -118,6 +162,28 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.IO.Path">
       <Item value="GetFullPath`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Configuration.ConfigurationManager">
+      <Item value="ConnectionStrings" priority="107" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Configuration.ConnectionStringSettingsCollection">
+      <Item value="Count" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Configuration.ConnectionStringSettings">
+      <Item value="ProviderName" priority="26" />
+      <Item value="ConnectionString" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Src.DbHelper">
+      <Item value="Connect`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Configuration.ConfigurationManager">
+      <Item value="ConnectionStrings" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Data.Common.DbProviderFactories">
+      <Item value="GetFactory`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Common.DbProviderFactories">
+      <Item value="GetFactory`0" priority="27" />
     </ItemStatistics>
   </CompletionStatisticsManager>
   <NAntValidationSettings>

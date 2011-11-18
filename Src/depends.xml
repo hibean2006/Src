@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <depends xmlns="http://github.com/Src/depends.xsd">
-	<file name="">
-		<depend file=""/>
+	<file name="DbHelper.cs">
+		<depend file="IDbHelper.cs"/>
+		<depend file="DbConnectionNotFoundException.cs"/>
 	</file>
 </depends>

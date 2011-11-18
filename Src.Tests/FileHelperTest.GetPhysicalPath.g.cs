@@ -26,14 +26,6 @@ public void GetPhysicalPathThrowsArgumentNullException927()
 }
 [TestMethod]
 [PexGeneratedBy(typeof(FileHelperTest))]
-public void GetPhysicalPath11501()
-{
-    string s;
-    s = this.GetPhysicalPath("~");
-    Assert.AreEqual<string>("D:\\Program Files (x86)\\Microsoft Pex\\bin\\", s);
-}
-[TestMethod]
-[PexGeneratedBy(typeof(FileHelperTest))]
 [ExpectedException(typeof(ArgumentException))]
 public void GetPhysicalPathThrowsArgumentException938()
 {
@@ -55,6 +47,14 @@ public void GetPhysicalPathThrowsArgumentException738()
 {
     string s;
     s = this.GetPhysicalPath("\0\0");
+}
+[TestMethod]
+[PexGeneratedBy(typeof(FileHelperTest))]
+public void GetPhysicalPath11501()
+{
+    string s;
+    s = this.GetPhysicalPath("~");
+    Assert.AreEqual<string>("D:\\Program Files (x86)\\Microsoft Pex\\bin\\", s);
 }
     }
 }
