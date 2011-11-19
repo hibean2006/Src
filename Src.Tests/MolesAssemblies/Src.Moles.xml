@@ -4,6 +4,107 @@
         <name>Src.Moles</name>
     </assembly>
     <members>
+        <member name="T:Src.Moles.MCryptor">
+            <summary>Mole type of <see cref="T:Src.Cryptor"/>
+            .</summary>
+        </member>
+        <member name="M:Src.Moles.MCryptor.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Src.Moles.MCryptor.#ctor(Src.Cryptor)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Src.Moles.MCryptor.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Src.Moles.MCryptor.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Src.Moles.MCryptor.Bind(Src.ICryptor)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Src.Moles.MCryptor.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Src.Moles.MCryptor.ConstructorString">
+            <summary>Sets the mole of <see cref="M:Src.Cryptor.#ctor(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCryptor.Create">
+            <summary>Sets the mole of <see cref="M:Src.Cryptor.Create"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCryptor.CreateString">
+            <summary>Sets the mole of <see cref="M:Src.Cryptor.Create(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCryptor.DecryptByteArray">
+            <summary>Sets the mole of <see cref="M:Src.Cryptor.Decrypt(System.Byte[])"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCryptor.DecryptFromBase64String">
+            <summary>Sets the mole of <see cref="M:Src.Cryptor.DecryptFromBase64(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCryptor.EncryptByteArray">
+            <summary>Sets the mole of <see cref="M:Src.Cryptor.Encrypt(System.Byte[])"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCryptor.EncryptToBase64String">
+            <summary>Sets the mole of <see cref="M:Src.Cryptor.EncryptToBase64(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCryptor.GetIVByteArray">
+            <summary>Sets the mole of <see cref="M:Src.Cryptor.GetIV(System.Byte[])"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCryptor.HashByteArray">
+            <summary>Sets the mole of <see cref="M:Src.Cryptor.Hash(System.Byte[])"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCryptor.HashToBase64String">
+            <summary>Sets the mole of <see cref="M:Src.Cryptor.HashToBase64(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCryptor._Decryptb__2DES">
+            <summary>Sets the mole of <see cref="M:Src.Cryptor.&lt;Decrypt&gt;b__2(System.Security.Cryptography.DES)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCryptor._Encryptb__0DES">
+            <summary>Sets the mole of <see cref="M:Src.Cryptor.&lt;Encrypt&gt;b__0(System.Security.Cryptography.DES)"/>
+            </summary>
+        </member>
+        <member name="T:Src.Moles.MCryptor.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Src.Moles.MCryptor.AllInstances.DecryptByteArray">
+            <summary>Sets the mole of <see cref="M:Src.Cryptor.Decrypt(System.Byte[])"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCryptor.AllInstances.DecryptFromBase64String">
+            <summary>Sets the mole of <see cref="M:Src.Cryptor.DecryptFromBase64(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCryptor.AllInstances.EncryptByteArray">
+            <summary>Sets the mole of <see cref="M:Src.Cryptor.Encrypt(System.Byte[])"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCryptor.AllInstances.EncryptToBase64String">
+            <summary>Sets the mole of <see cref="M:Src.Cryptor.EncryptToBase64(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCryptor.AllInstances.GetIVByteArray">
+            <summary>Sets the mole of <see cref="M:Src.Cryptor.GetIV(System.Byte[])"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCryptor.AllInstances.HashByteArray">
+            <summary>Sets the mole of <see cref="M:Src.Cryptor.Hash(System.Byte[])"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCryptor.AllInstances.HashToBase64String">
+            <summary>Sets the mole of <see cref="M:Src.Cryptor.HashToBase64(System.String)"/>
+            </summary>
+        </member>
         <member name="T:Src.Moles.MDbConnectionNotFoundException">
             <summary>Mole type of <see cref="T:Src.DbConnectionNotFoundException"/>
             .</summary>
@@ -222,6 +323,61 @@
         </member>
         <member name="P:Src.Moles.SFileHelper.InstanceBehavior">
             <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Src.Moles.SICryptor">
+            <summary>Stub type of <see cref="T:Src.ICryptor"/>
+            .</summary>
+        </member>
+        <member name="M:Src.Moles.SICryptor.#ctor">
+            <summary>Initializes a new instance of type SICryptor</summary>
+        </member>
+        <member name="F:Src.Moles.SICryptor.DecryptByteArray">
+            <summary>Sets the stub of <see cref="M:Src.ICryptor.Decrypt(System.Byte[])"/>
+            </summary>
+        </member>
+        <member name="F:Src.Moles.SICryptor.DecryptFromBase64String">
+            <summary>Sets the stub of <see cref="M:Src.ICryptor.DecryptFromBase64(System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Src.Moles.SICryptor.EncryptByteArray">
+            <summary>Sets the stub of <see cref="M:Src.ICryptor.Encrypt(System.Byte[])"/>
+            </summary>
+        </member>
+        <member name="F:Src.Moles.SICryptor.EncryptToBase64String">
+            <summary>Sets the stub of <see cref="M:Src.ICryptor.EncryptToBase64(System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Src.Moles.SICryptor.HashByteArray">
+            <summary>Sets the stub of <see cref="M:Src.ICryptor.Hash(System.Byte[])"/>
+            </summary>
+        </member>
+        <member name="F:Src.Moles.SICryptor.HashToBase64String">
+            <summary>Sets the stub of <see cref="M:Src.ICryptor.HashToBase64(System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SICryptor.s::Src#ICryptor#Decrypt(System.Byte[])">
+            <summary>Sets the stub of <see cref="M:Src.ICryptor.Decrypt(System.Byte[])"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SICryptor.s::Src#ICryptor#DecryptFromBase64(System.String)">
+            <summary>Sets the stub of <see cref="M:Src.ICryptor.DecryptFromBase64(System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SICryptor.s::Src#ICryptor#Encrypt(System.Byte[])">
+            <summary>Sets the stub of <see cref="M:Src.ICryptor.Encrypt(System.Byte[])"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SICryptor.s::Src#ICryptor#EncryptToBase64(System.String)">
+            <summary>Sets the stub of <see cref="M:Src.ICryptor.EncryptToBase64(System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SICryptor.s::Src#ICryptor#Hash(System.Byte[])">
+            <summary>Sets the stub of <see cref="M:Src.ICryptor.Hash(System.Byte[])"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SICryptor.s::Src#ICryptor#HashToBase64(System.String)">
+            <summary>Sets the stub of <see cref="M:Src.ICryptor.HashToBase64(System.String)"/>
+            </summary>
         </member>
         <member name="T:Src.Moles.SIDbHelper">
             <summary>Stub type of <see cref="T:Src.IDbHelper"/>

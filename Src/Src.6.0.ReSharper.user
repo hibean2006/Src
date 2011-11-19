@@ -4,57 +4,60 @@
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:FileHelper.cs" caret="0" fromTop="0" />
       <File id="d:杂项文件/f:FileHelper.cs" caret="0" fromTop="0" />
       <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:FileHelperTest.cs" caret="219" fromTop="4" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="18" fromTop="0" />
       <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:StringHelperTest.cs" caret="1520" fromTop="7" />
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:depends.xsd" caret="853" fromTop="13" />
-      <File id="192C3801-0E0A-47C5-805E-D01E38D24836/f:machine.config/l:C!?Windows?Microsoft.NET?Framework64?v2.0.50727?CONFIG?machine.config" caret="20584" fromTop="2" />
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:depends.xml" caret="203" fromTop="4" />
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbConnectionNotFoundException.cs" caret="79" fromTop="0" />
-      <File id="192C3801-0E0A-47C5-805E-D01E38D24836/f:Web.config/l:..?..?..?Files?考评员管理系统?Deploy?Web.config" caret="3764" fromTop="6" />
-      <File id="192C3801-0E0A-47C5-805E-D01E38D24836/f:LightningTaskProvider.cs/l:..?..?..?VsProjects?MyTaskes?MyTaskes.LightningTask?LightningTaskProvider.cs" caret="441" fromTop="9" />
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:IDbHelper.cs" caret="732" fromTop="8" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="3384" fromTop="13" />
-      <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:DbHelperTest.cs" caret="0" fromTop="0" />
+      <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:DbHelperTest.cs" caret="2323" fromTop="4" />
+      <File id="C86147E3-A199-4695-B39A-D056361B5538/f:Param.cs/l:..?..?..?ReferenceSource?Param.cs" caret="180" fromTop="0" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="79" fromTop="5" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="1777" fromTop="8" />
+      <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:CryptorTest.Create01.g.cs" caret="1126" fromTop="11" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:ICryptor.cs" caret="574" fromTop="11" />
+      <File id="C86147E3-A199-4695-B39A-D056361B5538/f:MyCrypt.cs/l:..?..?..?Project?电总绩效考核?MISCore?03实现?MyCommon?MyCrypt.cs" caret="1692" fromTop="0" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:Cryptor.cs" caret="3194" fromTop="9" />
+      <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:CryptorTest.cs" caret="3747" fromTop="9" />
     </RecentFiles>
     <RecentEdits>
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="8093" fromTop="21" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="77" fromTop="4" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="2680" fromTop="8" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="2612" fromTop="8" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="2173" fromTop="10" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="2417" fromTop="14" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="223" fromTop="10" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="223" fromTop="8" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="223" fromTop="3" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:depends.xml" caret="203" fromTop="4" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbConnectionNotFoundException.cs" caret="0" fromTop="0" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbConnectionNotFoundException.cs" caret="79" fromTop="5" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="2956" fromTop="19" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="715" fromTop="9" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="1253" fromTop="16" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="1112" fromTop="15" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="3360" fromTop="9" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="8093" fromTop="9" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="8093" fromTop="18" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="8093" fromTop="11" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="5511" fromTop="13" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="1783" fromTop="3" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="6113" fromTop="11" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="7791" fromTop="14" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="5694" fromTop="12" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="8087" fromTop="13" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="1949" fromTop="11" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="322" fromTop="7" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="3484" fromTop="13" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="3483" fromTop="13" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:Cryptor.cs" caret="4024" fromTop="8" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:Cryptor.cs" caret="4024" fromTop="10" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:Cryptor.cs" caret="4025" fromTop="12" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:ICryptor.cs" caret="0" fromTop="0" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:ICryptor.cs" caret="77" fromTop="4" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:Cryptor.cs" caret="1189" fromTop="12" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:Cryptor.cs" caret="1139" fromTop="15" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:Cryptor.cs" caret="747" fromTop="10" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:Cryptor.cs" caret="3601" fromTop="18" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:Cryptor.cs" caret="3984" fromTop="15" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:Cryptor.cs" caret="3722" fromTop="11" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:Cryptor.cs" caret="1395" fromTop="14" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:Cryptor.cs" caret="2368" fromTop="11" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:Cryptor.cs" caret="3354" fromTop="15" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:Cryptor.cs" caret="3354" fromTop="12" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:Cryptor.cs" caret="3354" fromTop="11" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:Cryptor.cs" caret="1800" fromTop="12" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:Cryptor.cs" caret="265" fromTop="3" />
+      <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:CryptorTest.cs" caret="1455" fromTop="5" />
+      <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:CryptorTest.cs" caret="3826" fromTop="15" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:Cryptor.cs" caret="1803" fromTop="8" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:Cryptor.cs" caret="2147" fromTop="13" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:Cryptor.cs" caret="662" fromTop="9" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:Cryptor.cs" caret="2188" fromTop="8" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:Cryptor.cs" caret="2938" fromTop="18" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:Cryptor.cs" caret="1626" fromTop="17" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:Cryptor.cs" caret="1389" fromTop="9" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:Cryptor.cs" caret="3338" fromTop="10" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:Cryptor.cs" caret="2832" fromTop="11" />
+      <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:CryptorTest.cs" caret="3779" fromTop="10" />
     </RecentEdits>
   </RecentFiles>
   <CompletionStatisticsManager>
     <ItemStatistics item="CSharpCodeCompletionContext">
-      <Item value="static" priority="190" />
+      <Item value="static" priority="222" />
       <Item value="&lt;see cref=&quot;&quot;/&gt;" priority="155" />
-      <Item value="public" priority="318" />
-      <Item value="string" priority="831" />
+      <Item value="public" priority="382" />
+      <Item value="string" priority="1247" />
       <Item value="head" priority="31" />
       <Item value="tail" priority="31" />
       <Item value="&lt;example&gt;&lt;/example&gt;" priority="181" />
@@ -62,17 +65,17 @@
       <Item value="source" priority="159" />
       <Item value="left" priority="287" />
       <Item value="right" priority="159" />
-      <Item value="return" priority="607" />
-      <Item value="int" priority="95" />
-      <Item value="if" priority="415" />
+      <Item value="return" priority="863" />
+      <Item value="int" priority="191" />
+      <Item value="if" priority="479" />
       <Item value="leftIndex" priority="190" />
       <Item value="rightIndex" priority="95" />
       <Item value="null" priority="223" />
-      <Item value="throw" priority="223" />
-      <Item value="new" priority="223" />
-      <Item value="ArgumentNullException" priority="86" />
-      <Item value="TestMethod" priority="31" />
-      <Item value="void" priority="63" />
+      <Item value="throw" priority="255" />
+      <Item value="new" priority="351" />
+      <Item value="ArgumentNullException" priority="115" />
+      <Item value="TestMethod" priority="63" />
+      <Item value="void" priority="95" />
       <Item value="GetPhysicalPath`0" priority="31" />
       <Item value="path" priority="223" />
       <Item value="Path`0" priority="95" />
@@ -83,33 +86,33 @@
       <Item value="ApplicationException" priority="58" />
       <Item value="AppDomain`0" priority="63" />
       <Item value="&lt;exception cref=&quot;&quot;&gt;&lt;/exception&gt;" priority="25" />
-      <Item value="System" priority="63" />
+      <Item value="System" priority="95" />
       <Item value="ArgumentException`0" priority="31" />
       <Item value="NotSupportedException`0" priority="31" />
       <Item value="PathTooLongException`0" priority="31" />
-      <Item value="Security" priority="27" />
+      <Item value="Security" priority="54" />
       <Item value="SecurityException`0" priority="27" />
       <Item value="IDbHelper`0" priority="127" />
-      <Item value="const" priority="159" />
+      <Item value="const" priority="191" />
       <Item value="ConfigurationManager`0" priority="159" />
       <Item value="Create`0" priority="31" />
       <Item value="DbHelper" priority="28" />
       <Item value="provider" priority="63" />
       <Item value="connection" priority="31" />
-      <Item value="var" priority="31" />
+      <Item value="var" priority="127" />
       <Item value="ConnectionStringSettings`0" priority="31" />
       <Item value="settings" priority="63" />
       <Item value="class" priority="30" />
       <Item value="ApplicationException`0" priority="31" />
       <Item value="DbConnectionNotFoundException" priority="29" />
-      <Item value="ctor" priority="63" />
+      <Item value="ctor" priority="127" />
       <Item value="base" priority="63" />
       <Item value="message" priority="31" />
       <Item value="DbConnectionNotFoundException`0" priority="31" />
       <Item value="DbHelper`0" priority="31" />
-      <Item value="private" priority="63" />
+      <Item value="private" priority="223" />
       <Item value="switch" priority="31" />
-      <Item value="this" priority="63" />
+      <Item value="this" priority="127" />
       <Item value="readonly" priority="31" />
       <Item value="case" priority="223" />
       <Item value="SqlServer" priority="31" />
@@ -121,14 +124,58 @@
       <Item value="#region" priority="31" />
       <Item value="MySql" priority="31" />
       <Item value="CreateParameterName`0" priority="31" />
-      <Item value="i" priority="31" />
+      <Item value="i" priority="447" />
       <Item value="OleDb" priority="31" />
       <Item value="DbProviderFactories`0" priority="63" />
       <Item value="DataTableNewRowEventArgs`0" priority="31" />
       <Item value="NotSupportedException" priority="28" />
+      <Item value="byte" priority="860" />
+      <Item value="ICryptor`0" priority="95" />
+      <Item value="Cryptor" priority="28" />
+      <Item value="key" priority="864" />
+      <Item value="DefaultKey" priority="31" />
+      <Item value="data" priority="383" />
+      <Item value="Encrypt`0" priority="31" />
+      <Item value="bytes" priority="351" />
+      <Item value="cryptedBytes" priority="31" />
+      <Item value="Convert`0" priority="63" />
+      <Item value="Decrypt`0" priority="31" />
+      <Item value="Encoding`0" priority="95" />
+      <Item value="decryptedBytes" priority="31" />
+      <Item value="Hash`0" priority="63" />
+      <Item value="hashedBytes" priority="31" />
+      <Item value="md5" priority="31" />
+      <Item value="DES`0" priority="127" />
+      <Item value="des" priority="351" />
+      <Item value="mStream" priority="63" />
+      <Item value="for" priority="95" />
+      <Item value="result" priority="191" />
+      <Item value="Length" priority="161" />
+      <Item value="bytesLength" priority="95" />
+      <Item value="b1" priority="31" />
+      <Item value="GetIV`0" priority="159" />
+      <Item value="delegate" priority="64" />
+      <Item value="ICryptoTransform`0" priority="63" />
+      <Item value="Transform`0" priority="31" />
+      <Item value="transform" priority="96" />
+      <Item value="Transform" priority="28" />
+      <Item value="des`0" priority="31" />
+      <Item value="cryptor" priority="128" />
+      <Item value="Cryptor`0" priority="31" />
+      <Item value="Assert`0" priority="31" />
+      <Item value="output" priority="63" />
+      <Item value="TripleDES`0" priority="31" />
+      <Item value="Cryptography" priority="26" />
+      <Item value="DeriveBytes`0" priority="26" />
+      <Item value="keyBytes" priority="63" />
+      <Item value="IVLength" priority="63" />
+      <Item value="KeyLength" priority="62" />
+      <Item value="GetKey`0" priority="31" />
+      <Item value="mod" priority="31" />
+      <Item value="input" priority="31" />
     </ItemStatistics>
     <ItemStatistics item="Doc Comment tags">
-      <Item value="&lt;see cref=&quot;&quot;/&gt;" priority="64" />
+      <Item value="&lt;see cref=&quot;&quot;/&gt;" priority="69" />
       <Item value="&lt;example&gt;&lt;/example&gt;" priority="34" />
       <Item value="&lt;code&gt;&lt;/code&gt;" priority="9" />
       <Item value="&lt;remarks&gt;&lt;/remarks&gt;" priority="14" />
@@ -144,6 +191,7 @@
     <ItemStatistics item="Qualified:@System.String">
       <Item value="Empty" priority="53" />
       <Item value="Format`0" priority="161" />
+      <Item value="IsNullOrEmpty`0" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.IO.Directory">
       <Item value="Exists`0" priority="53" />
@@ -184,6 +232,54 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Data.Common.DbProviderFactories">
       <Item value="GetFactory`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Text.Encoding">
+      <Item value="Unicode" priority="107" />
+      <Item value="UTF7" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.Encoding">
+      <Item value="GetBytes`0" priority="80" />
+      <Item value="GetString`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToBase64String`0" priority="53" />
+      <Item value="FromBase64String`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Security.Cryptography.MD5">
+      <Item value="Create`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Cryptography.MD5">
+      <Item value="ComputeHash`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Security.Cryptography.DES">
+      <Item value="Create`0" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Cryptography.DES">
+      <Item value="CreateEncryptor`0" priority="53" />
+      <Item value="Key" priority="53" />
+      <Item value="IV" priority="53" />
+      <Item value="CreateDecryptor`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.MemoryStream">
+      <Item value="ToArray`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Src.Cryptor">
+      <Item value="Create`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Src.ICryptor">
+      <Item value="EncryptToBase64`0" priority="26" />
+      <Item value="Decrypt`0" priority="26" />
+      <Item value="DecryptFromBase64`0" priority="26" />
+      <Item value="Hash`0" priority="26" />
+      <Item value="HashToBase64`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
+      <Item value="IsNotNull`0" priority="26" />
+      <Item value="AreEqual`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Cryptography.TripleDES">
+      <Item value="Key" priority="26" />
+      <Item value="IV" priority="26" />
     </ItemStatistics>
   </CompletionStatisticsManager>
   <NAntValidationSettings>
