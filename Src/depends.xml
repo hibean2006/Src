@@ -7,4 +7,9 @@
 	<file name="Cryptor.cs">
 		<depend file="ICryptor.cs"/>
 	</file>
+	<file name="P.cs">
+		<depend file="IMoreCheckAction.cs"/>
+		<depend file="IParameterChecker.cs"/>
+		<depend file="IParameterPicker.cs"/>
+	</file>
 </depends>

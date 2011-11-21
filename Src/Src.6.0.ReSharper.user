@@ -5,7 +5,6 @@
       <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:FileHelperTest.cs" caret="219" fromTop="4" />
       <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:StringHelperTest.cs" caret="1520" fromTop="7" />
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:depends.xsd" caret="853" fromTop="13" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:depends.xml" caret="203" fromTop="4" />
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbConnectionNotFoundException.cs" caret="79" fromTop="0" />
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:IDbHelper.cs" caret="732" fromTop="8" />
       <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:DbHelperTest.cs" caret="2323" fromTop="4" />
@@ -14,16 +13,15 @@
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:ICryptor.cs" caret="574" fromTop="11" />
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:Cryptor.cs" caret="3194" fromTop="9" />
       <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:CryptorTest.cs" caret="3747" fromTop="9" />
-      <File id="C437571F-BF26-453F-AE73-0A56CADB40E1/f:Param.cs/l:..?..?..?Project?ReferenceSource?Param.cs" caret="1963" fromTop="35" />
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="0" fromTop="0" />
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:IParameterPicker.cs" caret="0" fromTop="0" />
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:IMoreCheckAction.cs" caret="0" fromTop="0" />
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:IParameterChecker.cs" caret="2" fromTop="1" />
       <File id="70DC1718-A114-4711-83DC-495AE3AE1124/f:Program.cs" caret="323" fromTop="6" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:P.cs" caret="1616" fromTop="0" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:P.cs" caret="140" fromTop="3" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:depends.xml" caret="421" fromTop="12" />
     </RecentFiles>
     <RecentEdits>
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:P.cs" caret="5044" fromTop="10" />
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:P.cs" caret="5044" fromTop="6" />
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:P.cs" caret="2300" fromTop="10" />
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:P.cs" caret="2415" fromTop="12" />
@@ -53,6 +51,7 @@
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:P.cs" caret="1892" fromTop="14" />
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:P.cs" caret="2094" fromTop="11" />
       <File id="70DC1718-A114-4711-83DC-495AE3AE1124/f:Program.cs" caret="302" fromTop="5" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:depends.xml" caret="421" fromTop="12" />
     </RecentEdits>
   </RecentFiles>
   <CompletionStatisticsManager>
