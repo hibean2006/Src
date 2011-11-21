@@ -4,4 +4,7 @@
 		<depend file="IDbHelper.cs"/>
 		<depend file="DbConnectionNotFoundException.cs"/>
 	</file>
+	<file name="Cryptor.cs">
+		<depend file="ICryptor.cs"/>
+	</file>
 </depends>

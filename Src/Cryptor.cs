@@ -1,4 +1,6 @@
 ﻿/**
+ * file depends: ICryptor.cs
+ * 
  * Haibin Zou=>zhb
  * hibean2006@126.com
  * 2011-11-19 Created 

@@ -1,4 +1,7 @@
 ﻿/**
+ * file depends: IDbHelper.cs 
+ *                      DbConnectionNotFoundException.cs
+ * 
  * Haibin Zou=>zhb
  * hibean2006@126.com
  * 2011-11-18 Created 

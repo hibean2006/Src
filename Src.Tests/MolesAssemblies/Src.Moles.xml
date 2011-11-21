@@ -54,8 +54,12 @@
             <summary>Sets the mole of <see cref="M:Src.Cryptor.EncryptToBase64(System.String)"/>
             </summary>
         </member>
-        <member name="P:Src.Moles.MCryptor.GetIVByteArray">
-            <summary>Sets the mole of <see cref="M:Src.Cryptor.GetIV(System.Byte[])"/>
+        <member name="P:Src.Moles.MCryptor.GetIV">
+            <summary>Sets the mole of <see cref="M:Src.Cryptor.GetIV"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCryptor.GetKey">
+            <summary>Sets the mole of <see cref="M:Src.Cryptor.GetKey"/>
             </summary>
         </member>
         <member name="P:Src.Moles.MCryptor.HashByteArray">
@@ -66,12 +70,12 @@
             <summary>Sets the mole of <see cref="M:Src.Cryptor.HashToBase64(System.String)"/>
             </summary>
         </member>
-        <member name="P:Src.Moles.MCryptor._Decryptb__2DES">
-            <summary>Sets the mole of <see cref="M:Src.Cryptor.&lt;Decrypt&gt;b__2(System.Security.Cryptography.DES)"/>
+        <member name="P:Src.Moles.MCryptor._Decryptb__2TripleDES">
+            <summary>Sets the mole of <see cref="M:Src.Cryptor.&lt;Decrypt&gt;b__2(System.Security.Cryptography.TripleDES)"/>
             </summary>
         </member>
-        <member name="P:Src.Moles.MCryptor._Encryptb__0DES">
-            <summary>Sets the mole of <see cref="M:Src.Cryptor.&lt;Encrypt&gt;b__0(System.Security.Cryptography.DES)"/>
+        <member name="P:Src.Moles.MCryptor._Encryptb__0TripleDES">
+            <summary>Sets the mole of <see cref="M:Src.Cryptor.&lt;Encrypt&gt;b__0(System.Security.Cryptography.TripleDES)"/>
             </summary>
         </member>
         <member name="T:Src.Moles.MCryptor.AllInstances">
@@ -93,8 +97,12 @@
             <summary>Sets the mole of <see cref="M:Src.Cryptor.EncryptToBase64(System.String)"/>
             </summary>
         </member>
-        <member name="P:Src.Moles.MCryptor.AllInstances.GetIVByteArray">
-            <summary>Sets the mole of <see cref="M:Src.Cryptor.GetIV(System.Byte[])"/>
+        <member name="P:Src.Moles.MCryptor.AllInstances.GetIV">
+            <summary>Sets the mole of <see cref="M:Src.Cryptor.GetIV"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCryptor.AllInstances.GetKey">
+            <summary>Sets the mole of <see cref="M:Src.Cryptor.GetKey"/>
             </summary>
         </member>
         <member name="P:Src.Moles.MCryptor.AllInstances.HashByteArray">
@@ -272,6 +280,50 @@
         <member name="T:Src.Moles.MFileHelper.AllInstances">
             <summary>Define moles for all instances members</summary>
         </member>
+        <member name="T:Src.Moles.MP">
+            <summary>Mole type of <see cref="T:Src.P"/>
+            .</summary>
+        </member>
+        <member name="M:Src.Moles.MP.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Src.Moles.MP.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Src.Moles.MP.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Src.Moles.MP.ActionAndLogActionOfString">
+            <summary>Sets the mole of <see cref="M:Src.P.ActionAndLog(System.Action`1{System.String})"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MP.Assert">
+            <summary>Sets the mole of <see cref="M:Src.P.Assert"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MP.AssertAndLog">
+            <summary>Sets the mole of <see cref="M:Src.P.AssertAndLog"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MP.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Src.Moles.MP.DoActionOfString">
+            <summary>Sets the mole of <see cref="M:Src.P.Do(System.Action`1{System.String})"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MP.Log">
+            <summary>Sets the mole of <see cref="M:Src.P.Log"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MP.Throw">
+            <summary>Sets the mole of <see cref="M:Src.P.Throw"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MP.ThrowAndLog">
+            <summary>Sets the mole of <see cref="M:Src.P.ThrowAndLog"/>
+            </summary>
+        </member>
         <member name="T:Src.Moles.MStringHelper">
             <summary>Mole type of <see cref="T:Src.StringHelper"/>
             .</summary>
@@ -432,6 +484,162 @@
         </member>
         <member name="M:Src.Moles.SIDbHelper.global::System#IDisposable#Dispose">
             <summary>Sets the stub of <see cref="M:System.IDisposable.Dispose"/>
+            </summary>
+        </member>
+        <member name="T:Src.Moles.SIMoreCheckAction">
+            <summary>Stub type of <see cref="T:Src.IMoreCheckAction"/>
+            .</summary>
+        </member>
+        <member name="M:Src.Moles.SIMoreCheckAction.#ctor">
+            <summary>Initializes a new instance of type SIMoreCheckAction</summary>
+        </member>
+        <member name="F:Src.Moles.SIMoreCheckAction.Or">
+            <summary>Sets the stub of <see cref="M:Src.IMoreCheckAction.Or"/>
+            </summary>
+        </member>
+        <member name="F:Src.Moles.SIMoreCheckAction.OrObjectString">
+            <summary>Sets the stub of <see cref="M:Src.IMoreCheckAction.Or(System.Object,System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIMoreCheckAction.s::Src#IMoreCheckAction#Or">
+            <summary>Sets the stub of <see cref="M:Src.IMoreCheckAction.Or"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIMoreCheckAction.s::Src#IMoreCheckAction#Or(System.Object,System.String)">
+            <summary>Sets the stub of <see cref="M:Src.IMoreCheckAction.Or(System.Object,System.String)"/>
+            </summary>
+        </member>
+        <member name="T:Src.Moles.SIParameterChecker">
+            <summary>Stub type of <see cref="T:Src.IParameterChecker"/>
+            .</summary>
+        </member>
+        <member name="M:Src.Moles.SIParameterChecker.#ctor">
+            <summary>Initializes a new instance of type SIParameterChecker</summary>
+        </member>
+        <member name="F:Src.Moles.SIParameterChecker.InArrayIEnumerable">
+            <summary>Sets the stub of <see cref="M:Src.IParameterChecker.InArray(System.Collections.IEnumerable)"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIParameterChecker.InArrayIEnumerableOfT``1(Microsoft.Moles.Framework.MolesDelegates.Func{System.Collections.Generic.IEnumerable{``0},Src.IMoreCheckAction})">
+            <summary>Sets stubs of InArray(IEnumerable`1&lt;!!0&gt; enumerable)</summary>
+        </member>
+        <member name="F:Src.Moles.SIParameterChecker.IsEmpty">
+            <summary>Sets the stub of <see cref="M:Src.IParameterChecker.IsEmpty"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIParameterChecker.IsEqualT``1(Microsoft.Moles.Framework.MolesDelegates.Func{``0,Src.IMoreCheckAction})">
+            <summary>Sets stubs of IsEqual(!!0 value)</summary>
+        </member>
+        <member name="F:Src.Moles.SIParameterChecker.IsFalse">
+            <summary>Sets the stub of <see cref="M:Src.IParameterChecker.IsFalse"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIParameterChecker.IsGreaterOrEqualThanT``1(Microsoft.Moles.Framework.MolesDelegates.Func{``0,Src.IMoreCheckAction})">
+            <summary>Sets stubs of IsGreaterOrEqualThan(!!0 value)</summary>
+        </member>
+        <member name="M:Src.Moles.SIParameterChecker.IsGreaterThanT``1(Microsoft.Moles.Framework.MolesDelegates.Func{``0,Src.IMoreCheckAction})">
+            <summary>Sets stubs of IsGreaterThan(!!0 value)</summary>
+        </member>
+        <member name="M:Src.Moles.SIParameterChecker.IsLessOrEqualThanT``1(Microsoft.Moles.Framework.MolesDelegates.Func{``0,Src.IMoreCheckAction})">
+            <summary>Sets stubs of IsLessOrEqualThan(!!0 value)</summary>
+        </member>
+        <member name="M:Src.Moles.SIParameterChecker.IsLessThanT``1(Microsoft.Moles.Framework.MolesDelegates.Func{``0,Src.IMoreCheckAction})">
+            <summary>Sets stubs of IsLessThan(!!0 value)</summary>
+        </member>
+        <member name="M:Src.Moles.SIParameterChecker.IsNotEqualT``1(Microsoft.Moles.Framework.MolesDelegates.Func{``0,Src.IMoreCheckAction})">
+            <summary>Sets stubs of IsNotEqual(!!0 value)</summary>
+        </member>
+        <member name="M:Src.Moles.SIParameterChecker.IsNotInstanceOf``1(Microsoft.Moles.Framework.MolesDelegates.Func{Src.IMoreCheckAction})">
+            <summary>Sets stubs of IsNotInstanceOf()</summary>
+        </member>
+        <member name="F:Src.Moles.SIParameterChecker.IsNull">
+            <summary>Sets the stub of <see cref="M:Src.IParameterChecker.IsNull"/>
+            </summary>
+        </member>
+        <member name="F:Src.Moles.SIParameterChecker.IsTrue">
+            <summary>Sets the stub of <see cref="M:Src.IParameterChecker.IsTrue"/>
+            </summary>
+        </member>
+        <member name="F:Src.Moles.SIParameterChecker.NotInArrayIEnumerable">
+            <summary>Sets the stub of <see cref="M:Src.IParameterChecker.NotInArray(System.Collections.IEnumerable)"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIParameterChecker.NotInArrayIEnumerableOfT``1(Microsoft.Moles.Framework.MolesDelegates.Func{System.Collections.Generic.IEnumerable{``0},Src.IMoreCheckAction})">
+            <summary>Sets stubs of NotInArray(IEnumerable`1&lt;!!0&gt; enumerable)</summary>
+        </member>
+        <member name="M:Src.Moles.SIParameterChecker.s::Src#IParameterChecker#InArray(System.Collections.IEnumerable)">
+            <summary>Sets the stub of <see cref="M:Src.IParameterChecker.InArray(System.Collections.IEnumerable)"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIParameterChecker.s::Src#IParameterChecker#InArray``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>Sets the stub of <see cref="M:Src.IParameterChecker.InArray``1(System.Collections.Generic.IEnumerable`1{``0})"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIParameterChecker.s::Src#IParameterChecker#IsEmpty">
+            <summary>Sets the stub of <see cref="M:Src.IParameterChecker.IsEmpty"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIParameterChecker.s::Src#IParameterChecker#IsEqual``1(``0)">
+            <summary>Sets the stub of <see cref="M:Src.IParameterChecker.IsEqual``1(``0)"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIParameterChecker.s::Src#IParameterChecker#IsFalse">
+            <summary>Sets the stub of <see cref="M:Src.IParameterChecker.IsFalse"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIParameterChecker.s::Src#IParameterChecker#IsGreaterOrEqualThan``1(``0)">
+            <summary>Sets the stub of <see cref="M:Src.IParameterChecker.IsGreaterOrEqualThan``1(``0)"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIParameterChecker.s::Src#IParameterChecker#IsGreaterThan``1(``0)">
+            <summary>Sets the stub of <see cref="M:Src.IParameterChecker.IsGreaterThan``1(``0)"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIParameterChecker.s::Src#IParameterChecker#IsLessOrEqualThan``1(``0)">
+            <summary>Sets the stub of <see cref="M:Src.IParameterChecker.IsLessOrEqualThan``1(``0)"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIParameterChecker.s::Src#IParameterChecker#IsLessThan``1(``0)">
+            <summary>Sets the stub of <see cref="M:Src.IParameterChecker.IsLessThan``1(``0)"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIParameterChecker.s::Src#IParameterChecker#IsNotEqual``1(``0)">
+            <summary>Sets the stub of <see cref="M:Src.IParameterChecker.IsNotEqual``1(``0)"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIParameterChecker.s::Src#IParameterChecker#IsNotInstanceOf``1">
+            <summary>Sets the stub of <see cref="M:Src.IParameterChecker.IsNotInstanceOf``1"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIParameterChecker.s::Src#IParameterChecker#IsNull">
+            <summary>Sets the stub of <see cref="M:Src.IParameterChecker.IsNull"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIParameterChecker.s::Src#IParameterChecker#IsTrue">
+            <summary>Sets the stub of <see cref="M:Src.IParameterChecker.IsTrue"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIParameterChecker.s::Src#IParameterChecker#NotInArray(System.Collections.IEnumerable)">
+            <summary>Sets the stub of <see cref="M:Src.IParameterChecker.NotInArray(System.Collections.IEnumerable)"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIParameterChecker.s::Src#IParameterChecker#NotInArray``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>Sets the stub of <see cref="M:Src.IParameterChecker.NotInArray``1(System.Collections.Generic.IEnumerable`1{``0})"/>
+            </summary>
+        </member>
+        <member name="T:Src.Moles.SIParameterPicker">
+            <summary>Stub type of <see cref="T:Src.IParameterPicker"/>
+            .</summary>
+        </member>
+        <member name="M:Src.Moles.SIParameterPicker.#ctor">
+            <summary>Initializes a new instance of type SIParameterPicker</summary>
+        </member>
+        <member name="M:Src.Moles.SIParameterPicker.s::Src#IParameterPicker#When(System.Object,System.String)">
+            <summary>Sets the stub of <see cref="M:Src.IParameterPicker.When(System.Object,System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Src.Moles.SIParameterPicker.WhenObjectString">
+            <summary>Sets the stub of <see cref="M:Src.IParameterPicker.When(System.Object,System.String)"/>
             </summary>
         </member>
     </members>
