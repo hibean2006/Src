@@ -59,6 +59,10 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Compile Include="CnDateTest.Constructor.g.cs">
+      <DependentUpon>CnDateTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CnDateTest.cs" />
     <Compile Include="CryptorTest.Create.g.cs">
       <DependentUpon>CryptorTest.cs</DependentUpon>
     </Compile>

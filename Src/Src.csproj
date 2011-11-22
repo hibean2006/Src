@@ -37,6 +37,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CnDate.cs" />
     <Compile Include="Cryptor.cs" />
     <Compile Include="DbConnectionNotFoundException.cs" />
     <Compile Include="DbHelper.cs" />
@@ -51,7 +52,9 @@
     <Compile Include="StringHelper.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="depends.xml" />
+    <Content Include="depends.xml">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <None Include="depends.xsd">

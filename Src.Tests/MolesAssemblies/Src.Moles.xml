@@ -4,6 +4,200 @@
         <name>Src.Moles</name>
     </assembly>
     <members>
+        <member name="T:Src.Moles.MCnDate">
+            <summary>Mole type of <see cref="T:Src.CnDate"/>
+            .</summary>
+        </member>
+        <member name="M:Src.Moles.MCnDate.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Src.Moles.MCnDate.#ctor(Src.CnDate)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Src.Moles.MCnDate.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Src.Moles.MCnDate.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.Compute">
+            <summary>Sets the mole of <see cref="M:Src.CnDate.Compute"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.ConstellationGet">
+            <summary>Sets the mole of <see cref="P:Src.CnDate.Constellation"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.ConstellationSetString">
+            <summary>Sets the mole of <see cref="P:Src.CnDate.Constellation"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.ConstructorDateTime">
+            <summary>Sets the mole of <see cref="M:Src.CnDate.#ctor(System.DateTime)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.DayGet">
+            <summary>Sets the mole of <see cref="P:Src.CnDate.Day"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.DaySetString">
+            <summary>Sets the mole of <see cref="P:Src.CnDate.Day"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.FormatString">
+            <summary>Sets the mole of <see cref="M:Src.CnDate.Format(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.GetCnWeekDayOfWeek">
+            <summary>Sets the mole of <see cref="M:Src.CnDate.GetCnWeek(System.DayOfWeek)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.IsSolarTermGet">
+            <summary>Sets the mole of <see cref="P:Src.CnDate.IsSolarTerm"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.IsSolarTermSetBoolean">
+            <summary>Sets the mole of <see cref="P:Src.CnDate.IsSolarTerm"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.MonthGet">
+            <summary>Sets the mole of <see cref="P:Src.CnDate.Month"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.MonthSetString">
+            <summary>Sets the mole of <see cref="P:Src.CnDate.Month"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.SolarTermGet">
+            <summary>Sets the mole of <see cref="P:Src.CnDate.SolarTerm"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.SolarTermSetString">
+            <summary>Sets the mole of <see cref="P:Src.CnDate.SolarTerm"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.SourceGet">
+            <summary>Sets the mole of <see cref="P:Src.CnDate.Source"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.SourceSetDateTime">
+            <summary>Sets the mole of <see cref="P:Src.CnDate.Source"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.ToString">
+            <summary>Sets the mole of <see cref="M:Src.CnDate.ToString"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.ToStringString">
+            <summary>Sets the mole of <see cref="M:Src.CnDate.ToString(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.WeekGet">
+            <summary>Sets the mole of <see cref="P:Src.CnDate.Week"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.WeekSetString">
+            <summary>Sets the mole of <see cref="P:Src.CnDate.Week"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.YearGet">
+            <summary>Sets the mole of <see cref="P:Src.CnDate.Year"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.YearSetString">
+            <summary>Sets the mole of <see cref="P:Src.CnDate.Year"/>
+            </summary>
+        </member>
+        <member name="T:Src.Moles.MCnDate.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.AllInstances.Compute">
+            <summary>Sets the mole of <see cref="M:Src.CnDate.Compute"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.AllInstances.ConstellationGet">
+            <summary>Sets the mole of <see cref="P:Src.CnDate.Constellation"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.AllInstances.ConstellationSetString">
+            <summary>Sets the mole of <see cref="P:Src.CnDate.Constellation"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.AllInstances.DayGet">
+            <summary>Sets the mole of <see cref="P:Src.CnDate.Day"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.AllInstances.DaySetString">
+            <summary>Sets the mole of <see cref="P:Src.CnDate.Day"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.AllInstances.FormatString">
+            <summary>Sets the mole of <see cref="M:Src.CnDate.Format(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.AllInstances.GetCnWeekDayOfWeek">
+            <summary>Sets the mole of <see cref="M:Src.CnDate.GetCnWeek(System.DayOfWeek)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.AllInstances.IsSolarTermGet">
+            <summary>Sets the mole of <see cref="P:Src.CnDate.IsSolarTerm"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.AllInstances.IsSolarTermSetBoolean">
+            <summary>Sets the mole of <see cref="P:Src.CnDate.IsSolarTerm"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.AllInstances.MonthGet">
+            <summary>Sets the mole of <see cref="P:Src.CnDate.Month"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.AllInstances.MonthSetString">
+            <summary>Sets the mole of <see cref="P:Src.CnDate.Month"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.AllInstances.SolarTermGet">
+            <summary>Sets the mole of <see cref="P:Src.CnDate.SolarTerm"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.AllInstances.SolarTermSetString">
+            <summary>Sets the mole of <see cref="P:Src.CnDate.SolarTerm"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.AllInstances.SourceGet">
+            <summary>Sets the mole of <see cref="P:Src.CnDate.Source"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.AllInstances.SourceSetDateTime">
+            <summary>Sets the mole of <see cref="P:Src.CnDate.Source"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.AllInstances.ToString01">
+            <summary>Sets the mole of <see cref="M:Src.CnDate.ToString"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.AllInstances.ToStringString">
+            <summary>Sets the mole of <see cref="M:Src.CnDate.ToString(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.AllInstances.WeekGet">
+            <summary>Sets the mole of <see cref="P:Src.CnDate.Week"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.AllInstances.WeekSetString">
+            <summary>Sets the mole of <see cref="P:Src.CnDate.Week"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.AllInstances.YearGet">
+            <summary>Sets the mole of <see cref="P:Src.CnDate.Year"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MCnDate.AllInstances.YearSetString">
+            <summary>Sets the mole of <see cref="P:Src.CnDate.Year"/>
+            </summary>
+        </member>
         <member name="T:Src.Moles.MCryptor">
             <summary>Mole type of <see cref="T:Src.Cryptor"/>
             .</summary>
@@ -343,6 +537,30 @@
         <member name="P:Src.Moles.MStringHelper.BetweenStringStringString">
             <summary>Sets the mole of <see cref="M:Src.StringHelper.Between(System.String,System.String,System.String)"/>
             </summary>
+        </member>
+        <member name="T:Src.Moles.SCnDate">
+            <summary>Stub type of <see cref="T:Src.CnDate"/>
+            .</summary>
+        </member>
+        <member name="M:Src.Moles.SCnDate.#ctor(System.DateTime)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Src.Moles.SCnDate.InitializeStub">
+            <summary>Initializes a new instance of type SCnDate</summary>
+        </member>
+        <member name="M:Src.Moles.SCnDate.ToString">
+            <summary>Sets the stub of <see cref="M:Src.CnDate.ToString"/>
+            </summary>
+        </member>
+        <member name="F:Src.Moles.SCnDate.ToString01">
+            <summary>Sets the stub of <see cref="M:Src.CnDate.ToString"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.SCnDate.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Src.Moles.SCnDate.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
         </member>
         <member name="T:Src.Moles.SDbConnectionNotFoundException">
             <summary>Stub type of <see cref="T:Src.DbConnectionNotFoundException"/>

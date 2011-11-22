@@ -8,83 +8,88 @@
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbConnectionNotFoundException.cs" caret="79" fromTop="0" />
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:IDbHelper.cs" caret="732" fromTop="8" />
       <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:DbHelperTest.cs" caret="2323" fromTop="4" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="79" fromTop="5" />
       <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:CryptorTest.Create01.g.cs" caret="1126" fromTop="11" />
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:ICryptor.cs" caret="574" fromTop="11" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:Cryptor.cs" caret="3194" fromTop="9" />
       <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:CryptorTest.cs" caret="3747" fromTop="9" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="0" fromTop="0" />
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:IParameterPicker.cs" caret="0" fromTop="0" />
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:IMoreCheckAction.cs" caret="0" fromTop="0" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:depends.xml" caret="200" fromTop="4" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:Cryptor.cs" caret="0" fromTop="0" />
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:IParameterChecker.cs" caret="2" fromTop="1" />
+      <File id="d:杂项文件/f:Param.cs" caret="0" fromTop="0" />
       <File id="70DC1718-A114-4711-83DC-495AE3AE1124/f:Program.cs" caret="323" fromTop="6" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="0" fromTop="0" />
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:P.cs" caret="140" fromTop="3" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:depends.xml" caret="421" fromTop="12" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="79" fromTop="5" />
+      <File id="d:杂项文件/f:Param.cs" caret="0" fromTop="0" />
+      <File id="d:杂项文件/f:Requires.cs" caret="0" fromTop="0" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:CnDate.cs" caret="2742" fromTop="25" />
+      <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:CnDateTest.cs" caret="1158" fromTop="12" />
     </RecentFiles>
     <RecentEdits>
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:P.cs" caret="5044" fromTop="6" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:P.cs" caret="2300" fromTop="10" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:P.cs" caret="2415" fromTop="12" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:P.cs" caret="1181" fromTop="10" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:P.cs" caret="950" fromTop="8" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:P.cs" caret="673" fromTop="5" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:P.cs" caret="2745" fromTop="5" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:P.cs" caret="4732" fromTop="2" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:P.cs" caret="4377" fromTop="5" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:P.cs" caret="5044" fromTop="2" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:P.cs" caret="369" fromTop="4" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:P.cs" caret="12152" fromTop="11" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:P.cs" caret="11597" fromTop="9" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:P.cs" caret="12145" fromTop="22" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:P.cs" caret="11704" fromTop="7" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:P.cs" caret="12152" fromTop="7" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:P.cs" caret="12152" fromTop="7" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:IParameterChecker.cs" caret="2" fromTop="1" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:P.cs" caret="12152" fromTop="11" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:P.cs" caret="143" fromTop="3" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:P.cs" caret="237" fromTop="7" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:P.cs" caret="540" fromTop="1" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:P.cs" caret="738" fromTop="3" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:P.cs" caret="1017" fromTop="9" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:P.cs" caret="1247" fromTop="8" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:P.cs" caret="1446" fromTop="7" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:P.cs" caret="1892" fromTop="14" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:P.cs" caret="2094" fromTop="11" />
-      <File id="70DC1718-A114-4711-83DC-495AE3AE1124/f:Program.cs" caret="302" fromTop="5" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:depends.xml" caret="421" fromTop="12" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:CnDate.cs" caret="42719" fromTop="14" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:CnDate.cs" caret="42900" fromTop="20" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:CnDate.cs" caret="46155" fromTop="14" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:CnDate.cs" caret="46588" fromTop="22" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:CnDate.cs" caret="46746" fromTop="21" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:CnDate.cs" caret="46883" fromTop="23" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:CnDate.cs" caret="47158" fromTop="25" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:CnDate.cs" caret="47436" fromTop="24" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:CnDate.cs" caret="47649" fromTop="25" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:CnDate.cs" caret="47776" fromTop="29" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:CnDate.cs" caret="47997" fromTop="29" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:CnDate.cs" caret="634" fromTop="15" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:CnDate.cs" caret="43877" fromTop="18" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:CnDate.cs" caret="932" fromTop="6" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:CnDate.cs" caret="43674" fromTop="10" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:CnDate.cs" caret="39915" fromTop="9" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:CnDate.cs" caret="42083" fromTop="17" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:CnDate.cs" caret="85" fromTop="5" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:CnDate.cs" caret="22" fromTop="1" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:CnDate.cs" caret="214" fromTop="8" />
+      <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:CnDateTest.cs" caret="1930" fromTop="6" />
+      <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:CnDateTest.cs" caret="1104" fromTop="11" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:CnDate.cs" caret="3383" fromTop="28" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:CnDate.cs" caret="3558" fromTop="20" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:CnDate.cs" caret="3859" fromTop="31" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:CnDate.cs" caret="2976" fromTop="19" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:CnDate.cs" caret="3279" fromTop="22" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:CnDate.cs" caret="2742" fromTop="7" />
+      <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:CnDateTest.cs" caret="1451" fromTop="8" />
+      <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:CnDateTest.cs" caret="1901" fromTop="16" />
     </RecentEdits>
   </RecentFiles>
   <CompletionStatisticsManager>
     <ItemStatistics item="CSharpCodeCompletionContext">
       <Item value="static" priority="254" />
-      <Item value="&lt;see cref=&quot;&quot;/&gt;" priority="155" />
-      <Item value="public" priority="445" />
-      <Item value="string" priority="1689" />
+      <Item value="&lt;see cref=&quot;&quot;/&gt;" priority="207" />
+      <Item value="public" priority="765" />
+      <Item value="string" priority="2105" />
       <Item value="head" priority="31" />
       <Item value="tail" priority="31" />
       <Item value="&lt;example&gt;&lt;/example&gt;" priority="181" />
-      <Item value="&lt;code&gt;&lt;/code&gt;" priority="51" />
+      <Item value="&lt;code&gt;&lt;/code&gt;" priority="77" />
       <Item value="source" priority="159" />
       <Item value="left" priority="287" />
       <Item value="right" priority="159" />
-      <Item value="return" priority="1119" />
+      <Item value="return" priority="1343" />
       <Item value="int" priority="255" />
-      <Item value="if" priority="991" />
+      <Item value="if" priority="1055" />
       <Item value="leftIndex" priority="190" />
       <Item value="rightIndex" priority="95" />
-      <Item value="null" priority="383" />
-      <Item value="throw" priority="319" />
-      <Item value="new" priority="703" />
-      <Item value="ArgumentNullException" priority="202" />
-      <Item value="TestMethod" priority="63" />
-      <Item value="void" priority="287" />
+      <Item value="null" priority="511" />
+      <Item value="throw" priority="383" />
+      <Item value="new" priority="863" />
+      <Item value="ArgumentNullException" priority="231" />
+      <Item value="TestMethod" priority="95" />
+      <Item value="void" priority="319" />
       <Item value="GetPhysicalPath`0" priority="31" />
       <Item value="path" priority="223" />
       <Item value="Path`0" priority="95" />
       <Item value="physcialPath" priority="63" />
       <Item value="Directory`0" priority="63" />
       <Item value="dirPath" priority="95" />
-      <Item value="&lt;remarks&gt;&lt;/remarks&gt;" priority="77" />
+      <Item value="&lt;remarks&gt;&lt;/remarks&gt;" priority="103" />
       <Item value="ApplicationException" priority="58" />
       <Item value="AppDomain`0" priority="63" />
       <Item value="&lt;exception cref=&quot;&quot;&gt;&lt;/exception&gt;" priority="25" />
@@ -104,16 +109,16 @@
       <Item value="var" priority="159" />
       <Item value="ConnectionStringSettings`0" priority="31" />
       <Item value="settings" priority="63" />
-      <Item value="class" priority="30" />
+      <Item value="class" priority="61" />
       <Item value="ApplicationException`0" priority="31" />
       <Item value="DbConnectionNotFoundException" priority="29" />
-      <Item value="ctor" priority="127" />
+      <Item value="ctor" priority="159" />
       <Item value="base" priority="63" />
       <Item value="message" priority="31" />
       <Item value="DbConnectionNotFoundException`0" priority="31" />
       <Item value="DbHelper`0" priority="31" />
-      <Item value="private" priority="287" />
-      <Item value="switch" priority="31" />
+      <Item value="private" priority="647" />
+      <Item value="switch" priority="63" />
       <Item value="this" priority="287" />
       <Item value="readonly" priority="63" />
       <Item value="case" priority="223" />
@@ -151,7 +156,7 @@
       <Item value="des" priority="351" />
       <Item value="mStream" priority="63" />
       <Item value="for" priority="95" />
-      <Item value="result" priority="255" />
+      <Item value="result" priority="287" />
       <Item value="Length" priority="242" />
       <Item value="bytesLength" priority="95" />
       <Item value="b1" priority="31" />
@@ -164,7 +169,7 @@
       <Item value="des`0" priority="31" />
       <Item value="cryptor" priority="128" />
       <Item value="Cryptor`0" priority="31" />
-      <Item value="Assert`0" priority="31" />
+      <Item value="Assert`0" priority="255" />
       <Item value="output" priority="63" />
       <Item value="TripleDES`0" priority="31" />
       <Item value="Cryptography" priority="26" />
@@ -178,7 +183,7 @@
       <Item value="MessageBox`0" priority="31" />
       <Item value="Assembly`0" priority="31" />
       <Item value="StackFrame" priority="28" />
-      <Item value="true" priority="95" />
+      <Item value="true" priority="127" />
       <Item value="sf" priority="31" />
       <Item value="&lt;param name=&quot;&quot;&gt;&lt;/param&gt;" priority="51" />
       <Item value="pName" priority="191" />
@@ -195,7 +200,7 @@
       <Item value="value" priority="255" />
       <Item value="&lt;typeparamref name=&quot;&quot;/&gt;" priority="51" />
       <Item value="args" priority="159" />
-      <Item value="target" priority="224" />
+      <Item value="target" priority="448" />
       <Item value="as" priority="31" />
       <Item value="DBNull`0" priority="64" />
       <Item value="Deal`0" priority="191" />
@@ -211,8 +216,8 @@
       <Item value="StringBuilder" priority="28" />
       <Item value="builder" priority="159" />
       <Item value="ArgumentException" priority="29" />
-      <Item value="bool" priority="31" />
-      <Item value="false" priority="31" />
+      <Item value="bool" priority="63" />
+      <Item value="false" priority="63" />
       <Item value="Or`0" priority="31" />
       <Item value="IParameterChecker`0" priority="63" />
       <Item value="ParameterChecker" priority="28" />
@@ -224,7 +229,7 @@
       <Item value="EntryWrittenEventArgs`0" priority="31" />
       <Item value="StackTrace" priority="28" />
       <Item value="trace" priority="63" />
-      <Item value="DateTime`0" priority="31" />
+      <Item value="DateTime`0" priority="95" />
       <Item value="content" priority="31" />
       <Item value="ActionMode`0" priority="639" />
       <Item value="IParameterPicker`0" priority="31" />
@@ -232,15 +237,45 @@
       <Item value="Mode`0" priority="63" />
       <Item value="Action" priority="31" />
       <Item value="action" priority="32" />
+      <Item value="struct" priority="30" />
+      <Item value="Source" priority="95" />
+      <Item value="date" priority="31" />
+      <Item value="ChineseDate`0" priority="31" />
+      <Item value="chinese" priority="320" />
+      <Item value="ChineseDate" priority="28" />
+      <Item value="Month" priority="95" />
+      <Item value="Year" priority="63" />
+      <Item value="Week" priority="63" />
+      <Item value="SolarTerm" priority="127" />
+      <Item value="Constellation" priority="63" />
+      <Item value="CnDate`0" priority="95" />
+      <Item value="Day" priority="63" />
+      <Item value="szText" priority="31" />
+      <Item value="iMonth" priority="31" />
+      <Item value="ushort" priority="95" />
+      <Item value="uint" priority="64" />
+      <Item value="span" priority="512" />
+      <Item value="IsSolarTerm" priority="31" />
+      <Item value="m_Date" priority="31" />
+      <Item value="dt" priority="95" />
+      <Item value="END_YEAR" priority="63" />
+      <Item value="START_YEAR" priority="62" />
+      <Item value="ArgumentOutOfRangeException" priority="28" />
+      <Item value="CnDate" priority="28" />
+      <Item value="override" priority="31" />
+      <Item value="Format`0" priority="31" />
+      <Item value="format" priority="127" />
+      <Item value="&lt;c&gt;&lt;/c&gt;" priority="103" />
     </ItemStatistics>
     <ItemStatistics item="Doc Comment tags">
-      <Item value="&lt;see cref=&quot;&quot;/&gt;" priority="74" />
+      <Item value="&lt;see cref=&quot;&quot;/&gt;" priority="89" />
       <Item value="&lt;example&gt;&lt;/example&gt;" priority="34" />
-      <Item value="&lt;code&gt;&lt;/code&gt;" priority="9" />
-      <Item value="&lt;remarks&gt;&lt;/remarks&gt;" priority="14" />
+      <Item value="&lt;code&gt;&lt;/code&gt;" priority="14" />
+      <Item value="&lt;remarks&gt;&lt;/remarks&gt;" priority="19" />
       <Item value="&lt;exception cref=&quot;&quot;&gt;&lt;/exception&gt;" priority="4" />
       <Item value="&lt;param name=&quot;&quot;&gt;&lt;/param&gt;" priority="9" />
       <Item value="&lt;typeparamref name=&quot;&quot;/&gt;" priority="9" />
+      <Item value="&lt;c&gt;&lt;/c&gt;" priority="19" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.String">
       <Item value="IndexOf`0" priority="53" />
@@ -248,10 +283,11 @@
       <Item value="Length" priority="107" />
       <Item value="StartsWith`0" priority="26" />
       <Item value="Remove`0" priority="26" />
+      <Item value="Replace`0" priority="161" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.String">
       <Item value="Empty" priority="53" />
-      <Item value="Format`0" priority="269" />
+      <Item value="Format`0" priority="323" />
       <Item value="IsNullOrEmpty`0" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@System.IO.Directory">
@@ -336,7 +372,7 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:@Microsoft.VisualStudio.TestTools.UnitTesting.Assert">
       <Item value="IsNotNull`0" priority="26" />
-      <Item value="AreEqual`1" priority="26" />
+      <Item value="AreEqual`1" priority="215" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Security.Cryptography.TripleDES">
       <Item value="Key" priority="26" />
@@ -377,6 +413,8 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.DateTime">
       <Item value="ToString`0" priority="26" />
+      <Item value="DayOfWeek" priority="26" />
+      <Item value="Year" priority="53" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@Src.ActionMode">
       <Item value="Other" priority="80" />
@@ -396,6 +434,27 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:@Src.P">
       <Item value="ThrowAndLog`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Src.CnDate+ChineseDate">
+      <Item value="FormatLunarYear`0" priority="26" />
+      <Item value="FormatMonth`0" priority="80" />
+      <Item value="GetLunarHolDay`0" priority="26" />
+      <Item value="GetConstellationName`0" priority="26" />
+      <Item value="l_CalcLunarDate`0" priority="53" />
+      <Item value="FormatLunarDay`0" priority="26" />
+      <Item value="GetLunarHolDayName`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.TimeSpan">
+      <Item value="Days" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Src.CnDate">
+      <Item value="Constellation" priority="26" />
+      <Item value="Month" priority="26" />
+      <Item value="Day" priority="26" />
+      <Item value="Year" priority="26" />
+      <Item value="SolarTerm" priority="26" />
+      <Item value="IsSolarTerm" priority="26" />
+      <Item value="ToString`0" priority="26" />
     </ItemStatistics>
   </CompletionStatisticsManager>
   <NAntValidationSettings>
