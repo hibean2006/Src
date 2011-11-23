@@ -12,4 +12,7 @@
 		<depend file="IParameterChecker.cs"/>
 		<depend file="IParameterPicker.cs"/>
 	</file>
+	<file name="XmlHelper.cs">
+		<depend file="ExtXmlReader.cs"/>
+	</file>
 </depends>

@@ -50,6 +50,9 @@
     <Compile Include="P.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringHelper.cs" />
+    <Compile Include="XmlHelper.cs" />
+    <Compile Include="ExtXmlReader.cs" />
+    <Compile Include="XmlParserException.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="depends.xml">
