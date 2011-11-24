@@ -19,21 +19,49 @@ namespace Src.Sample
             //    .Or(args[0], "args[0]").InArray(new string[] { "100", "200" })
             //    .Or().IsEqual("100")
             //    .Or().NotInArray(new string[] { "100", "200" });
-            XmlParser parser = new XmlParser("~/Src.Sample.exe.config");
             string val1;
             var test = new Test();
-            parser
-                .AddParse("/configuration/appSettings/add", r => val1 = r.GetAttribute("value"))
-                .AddParse("/configuration/test", r =>
-                                                    {
-                                                        test.pp = r.GetAttribute("pp");
-                                                        test.cc = r.ReadAttrToBoolean("cc");
-                                                    })
-                .AddParse("/configuration/test/abc", r => test.abcs.Add(new abc()
-                                                                           {
-                                                                               Value = r.ReadAttrToInt32("value")
-                                                                           }))
-                .Parse();
+
+            using (var reader = XmlReaderEx.CreateFromFile("~Src.Sample.exe.config"))
+            {
+                reader
+                    .AddParse("/configuration/appSettings/add", () => val1 = reader.GetAttribute("value"))
+                    .AddParse("/configuration/test", () =>
+                                                         {
+                                                             test.pp = reader.GetAttribute("pp");
+                                                             test.cc = reader.ReadAttrToBoolean("cc");
+                                                         })
+                    .AddParse("/configuration/test/abc", () =>
+                                                             {
+                                                                 var abc = new abc();
+                                                                 abc.Value = reader.ReadAttrToInt32("value");
+                                                                 reader.Attach(abc);
+                                                                 test.abcs.Add(abc);
+                                                             })
+                    .AddParse("/configuration/test/abc/a", () =>
+                                                               {
+                                                                   var abc = (abc) reader.GetAttach();
+                                                                   var a = new a();
+                                                                   a.a0 = reader.ReadAttrToInt32("a0");
+                                                                   abc.A = a;
+                                                               })
+                    .AddParse("/configuration/test/abc/b", () =>
+                                                               {
+                                                                   var abc = (abc) reader.GetAttach();
+                                                                   var b = new b();
+                                                                   b.b0 = reader.ReadAttrToInt32("b0");
+                                                                   abc.B = b;
+                                                               })
+                    .AddParse("/configuration/test/abc/c", () =>
+                                                               {
+                                                                   var abc = (abc) reader.GetAttach();
+                                                                   var c = new c();
+                                                                   c.c0 = reader.ReadAttrToInt32("c0");
+                                                                   abc.C = c;
+                                                               })
+                    .Go();
+            }
+
 
         }
 
@@ -50,6 +78,22 @@ namespace Src.Sample
         class abc
         {
             public int Value { get; set; }
+            public a A { get; set; }
+            public b B { get; set; }
+            public c C { get; set; }
+
+        }
+        class a
+        {
+            public int a0 { get; set; }
+        }
+        class b
+        {
+            public int b0 { get; set; }
+        }
+        class c
+        {
+            public int c0 { get; set; }
         }
     }
 }

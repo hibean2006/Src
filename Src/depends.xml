@@ -13,6 +13,9 @@
 		<depend file="IParameterPicker.cs"/>
 	</file>
 	<file name="XmlHelper.cs">
-		<depend file="ExtXmlReader.cs"/>
+		<depend file="XmlReaderEx.cs"/>
+	</file>
+	<file name="XmlReaderEx.cs">
+		<depend file="FileHelper.cs"/>
 	</file>
 </depends>

@@ -440,395 +440,6 @@
             <summary>Sets the mole of <see cref="M:Src.DbHelper.Prepare(System.String,System.Object[])"/>
             </summary>
         </member>
-        <member name="T:Src.Moles.MExtXmlReader">
-            <summary>Mole type of <see cref="T:Src.ExtXmlReader"/>
-            .</summary>
-        </member>
-        <member name="M:Src.Moles.MExtXmlReader.#ctor">
-            <summary>Initializes a new mole</summary>
-        </member>
-        <member name="M:Src.Moles.MExtXmlReader.#ctor(Src.ExtXmlReader)">
-            <summary>Initializes a new mole for the given instance</summary>
-        </member>
-        <member name="M:Src.Moles.MExtXmlReader.BehaveAsCurrent">
-            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
-        </member>
-        <member name="M:Src.Moles.MExtXmlReader.BehaveAsNotImplemented">
-            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
-        </member>
-        <member name="M:Src.Moles.MExtXmlReader.Bind(System.IDisposable)">
-            <summary>Binds the members of the interface to the mole.</summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AttributeCountGet">
-            <summary>Sets the mole of <see cref="P:Src.ExtXmlReader.AttributeCount"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.BaseURIGet">
-            <summary>Sets the mole of <see cref="P:Src.ExtXmlReader.BaseURI"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.Behavior">
-            <summary>Assigns the behavior for all methods of the moled type</summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.Close">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.Close"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.ConstructorXmlReader">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.#ctor(System.Xml.XmlReader)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.CreateStream">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.Create(System.IO.Stream)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.CreateStreamXmlReaderSettings">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.Create(System.IO.Stream,System.Xml.XmlReaderSettings)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.CreateStreamXmlReaderSettingsString">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.Create(System.IO.Stream,System.Xml.XmlReaderSettings,System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.CreateStreamXmlReaderSettingsXmlParserContext">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.Create(System.IO.Stream,System.Xml.XmlReaderSettings,System.Xml.XmlParserContext)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.CreateString">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.Create(System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.CreateStringXmlReaderSettings">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.Create(System.String,System.Xml.XmlReaderSettings)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.CreateStringXmlReaderSettingsXmlParserContext">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.Create(System.String,System.Xml.XmlReaderSettings,System.Xml.XmlParserContext)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.CreateTextReader">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.Create(System.IO.TextReader)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.CreateTextReaderXmlReaderSettings">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.Create(System.IO.TextReader,System.Xml.XmlReaderSettings)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.CreateTextReaderXmlReaderSettingsString">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.Create(System.IO.TextReader,System.Xml.XmlReaderSettings,System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.CreateTextReaderXmlReaderSettingsXmlParserContext">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.Create(System.IO.TextReader,System.Xml.XmlReaderSettings,System.Xml.XmlParserContext)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.CreateXmlReaderXmlReaderSettings">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.Create(System.Xml.XmlReader,System.Xml.XmlReaderSettings)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.DepthGet">
-            <summary>Sets the mole of <see cref="P:Src.ExtXmlReader.Depth"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.EOFGet">
-            <summary>Sets the mole of <see cref="P:Src.ExtXmlReader.EOF"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.GetAttributeInt32">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.GetAttribute(System.Int32)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.GetAttributeString">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.GetAttribute(System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.GetAttributeStringString">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.GetAttribute(System.String,System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.HasValueGet">
-            <summary>Sets the mole of <see cref="P:Src.ExtXmlReader.HasValue"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.IsEmptyElementGet">
-            <summary>Sets the mole of <see cref="P:Src.ExtXmlReader.IsEmptyElement"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.LocalNameGet">
-            <summary>Sets the mole of <see cref="P:Src.ExtXmlReader.LocalName"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.LookupNamespaceString">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.LookupNamespace(System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.MoveToAttributeString">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.MoveToAttribute(System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.MoveToAttributeStringString">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.MoveToAttribute(System.String,System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.MoveToElement">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.MoveToElement"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.MoveToFirstAttribute">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.MoveToFirstAttribute"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.MoveToNextAttribute">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.MoveToNextAttribute"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.NameTableGet">
-            <summary>Sets the mole of <see cref="P:Src.ExtXmlReader.NameTable"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.NamespaceURIGet">
-            <summary>Sets the mole of <see cref="P:Src.ExtXmlReader.NamespaceURI"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.NodeTypeGet">
-            <summary>Sets the mole of <see cref="P:Src.ExtXmlReader.NodeType"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.PrefixGet">
-            <summary>Sets the mole of <see cref="P:Src.ExtXmlReader.Prefix"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.Read">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.Read"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.ReadAttrToBooleanString">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.ReadAttrToBoolean(System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.ReadAttrToCharString">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.ReadAttrToChar(System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.ReadAttrToDateTimeString">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.ReadAttrToDateTime(System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.ReadAttrToDecimalString">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.ReadAttrToDecimal(System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.ReadAttrToDoubleString">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.ReadAttrToDouble(System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.ReadAttrToInt16String">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.ReadAttrToInt16(System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.ReadAttrToInt32String">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.ReadAttrToInt32(System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.ReadAttrToInt64String">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.ReadAttrToInt64(System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.ReadAttrToSByteString">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.ReadAttrToSByte(System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.ReadAttrToSingleString">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.ReadAttrToSingle(System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.ReadAttrToUInt16String">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.ReadAttrToUInt16(System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.ReadAttrToUInt32String">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.ReadAttrToUInt32(System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.ReadAttrToUInt64String">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.ReadAttrToUInt64(System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.ReadAttributeValue">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.ReadAttributeValue"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.ReadStateGet">
-            <summary>Sets the mole of <see cref="P:Src.ExtXmlReader.ReadState"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.ResolveEntity">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.ResolveEntity"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.ValueGet">
-            <summary>Sets the mole of <see cref="P:Src.ExtXmlReader.Value"/>
-            </summary>
-        </member>
-        <member name="T:Src.Moles.MExtXmlReader.AllInstances">
-            <summary>Define moles for all instances members</summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.AttributeCountGet">
-            <summary>Sets the mole of <see cref="P:Src.ExtXmlReader.AttributeCount"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.BaseURIGet">
-            <summary>Sets the mole of <see cref="P:Src.ExtXmlReader.BaseURI"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.Close">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.Close"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.DepthGet">
-            <summary>Sets the mole of <see cref="P:Src.ExtXmlReader.Depth"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.EOFGet">
-            <summary>Sets the mole of <see cref="P:Src.ExtXmlReader.EOF"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.GetAttributeInt32">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.GetAttribute(System.Int32)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.GetAttributeString">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.GetAttribute(System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.GetAttributeStringString">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.GetAttribute(System.String,System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.HasValueGet">
-            <summary>Sets the mole of <see cref="P:Src.ExtXmlReader.HasValue"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.IsEmptyElementGet">
-            <summary>Sets the mole of <see cref="P:Src.ExtXmlReader.IsEmptyElement"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.LocalNameGet">
-            <summary>Sets the mole of <see cref="P:Src.ExtXmlReader.LocalName"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.LookupNamespaceString">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.LookupNamespace(System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.MoveToAttributeString">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.MoveToAttribute(System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.MoveToAttributeStringString">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.MoveToAttribute(System.String,System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.MoveToElement">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.MoveToElement"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.MoveToFirstAttribute">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.MoveToFirstAttribute"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.MoveToNextAttribute">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.MoveToNextAttribute"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.NameTableGet">
-            <summary>Sets the mole of <see cref="P:Src.ExtXmlReader.NameTable"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.NamespaceURIGet">
-            <summary>Sets the mole of <see cref="P:Src.ExtXmlReader.NamespaceURI"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.NodeTypeGet">
-            <summary>Sets the mole of <see cref="P:Src.ExtXmlReader.NodeType"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.PrefixGet">
-            <summary>Sets the mole of <see cref="P:Src.ExtXmlReader.Prefix"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.Read">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.Read"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.ReadAttrToBooleanString">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.ReadAttrToBoolean(System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.ReadAttrToCharString">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.ReadAttrToChar(System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.ReadAttrToDateTimeString">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.ReadAttrToDateTime(System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.ReadAttrToDecimalString">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.ReadAttrToDecimal(System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.ReadAttrToDoubleString">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.ReadAttrToDouble(System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.ReadAttrToInt16String">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.ReadAttrToInt16(System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.ReadAttrToInt32String">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.ReadAttrToInt32(System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.ReadAttrToInt64String">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.ReadAttrToInt64(System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.ReadAttrToSByteString">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.ReadAttrToSByte(System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.ReadAttrToSingleString">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.ReadAttrToSingle(System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.ReadAttrToUInt16String">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.ReadAttrToUInt16(System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.ReadAttrToUInt32String">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.ReadAttrToUInt32(System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.ReadAttrToUInt64String">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.ReadAttrToUInt64(System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.ReadAttributeValue">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.ReadAttributeValue"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.ReadStateGet">
-            <summary>Sets the mole of <see cref="P:Src.ExtXmlReader.ReadState"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.ResolveEntity">
-            <summary>Sets the mole of <see cref="M:Src.ExtXmlReader.ResolveEntity"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MExtXmlReader.AllInstances.ValueGet">
-            <summary>Sets the mole of <see cref="P:Src.ExtXmlReader.Value"/>
-            </summary>
-        </member>
         <member name="T:Src.Moles.MFileHelper">
             <summary>Mole type of <see cref="T:Src.FileHelper"/>
             .</summary>
@@ -927,48 +538,6 @@
             <summary>Sets the mole of <see cref="M:Src.StringHelper.Between(System.String,System.String,System.String)"/>
             </summary>
         </member>
-        <member name="T:Src.Moles.MXmlParser">
-            <summary>Mole type of <see cref="T:Src.XmlParser"/>
-            .</summary>
-        </member>
-        <member name="M:Src.Moles.MXmlParser.#ctor">
-            <summary>Initializes a new mole</summary>
-        </member>
-        <member name="M:Src.Moles.MXmlParser.#ctor(Src.XmlParser)">
-            <summary>Initializes a new mole for the given instance</summary>
-        </member>
-        <member name="M:Src.Moles.MXmlParser.BehaveAsCurrent">
-            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
-        </member>
-        <member name="M:Src.Moles.MXmlParser.BehaveAsNotImplemented">
-            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
-        </member>
-        <member name="P:Src.Moles.MXmlParser.AddParseStringActionOfExtXmlReader">
-            <summary>Sets the mole of <see cref="M:Src.XmlParser.AddParse(System.String,System.Action`1{Src.ExtXmlReader})"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MXmlParser.Behavior">
-            <summary>Assigns the behavior for all methods of the moled type</summary>
-        </member>
-        <member name="P:Src.Moles.MXmlParser.ConstructorString">
-            <summary>Sets the mole of <see cref="M:Src.XmlParser.#ctor(System.String)"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MXmlParser.Parse">
-            <summary>Sets the mole of <see cref="M:Src.XmlParser.Parse"/>
-            </summary>
-        </member>
-        <member name="T:Src.Moles.MXmlParser.AllInstances">
-            <summary>Define moles for all instances members</summary>
-        </member>
-        <member name="P:Src.Moles.MXmlParser.AllInstances.AddParseStringActionOfExtXmlReader">
-            <summary>Sets the mole of <see cref="M:Src.XmlParser.AddParse(System.String,System.Action`1{Src.ExtXmlReader})"/>
-            </summary>
-        </member>
-        <member name="P:Src.Moles.MXmlParser.AllInstances.Parse">
-            <summary>Sets the mole of <see cref="M:Src.XmlParser.Parse"/>
-            </summary>
-        </member>
         <member name="T:Src.Moles.MXmlParserException">
             <summary>Mole type of <see cref="T:Src.XmlParserException"/>
             .</summary>
@@ -1005,6 +574,447 @@
         </member>
         <member name="T:Src.Moles.MXmlParserException.AllInstances">
             <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="T:Src.Moles.MXmlReaderEx">
+            <summary>Mole type of <see cref="T:Src.XmlReaderEx"/>
+            .</summary>
+        </member>
+        <member name="M:Src.Moles.MXmlReaderEx.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Src.Moles.MXmlReaderEx.#ctor(Src.XmlReaderEx)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Src.Moles.MXmlReaderEx.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Src.Moles.MXmlReaderEx.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Src.Moles.MXmlReaderEx.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AddParseStringAction">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.AddParse(System.String,Src.Action)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AttachObject">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.Attach(System.Object)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AttributeCountGet">
+            <summary>Sets the mole of <see cref="P:Src.XmlReaderEx.AttributeCount"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.BaseURIGet">
+            <summary>Sets the mole of <see cref="P:Src.XmlReaderEx.BaseURI"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.Close">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.Close"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.ConstructorXmlReader">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.#ctor(System.Xml.XmlReader)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.CreateFromFileString">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.CreateFromFile(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.CreateStream">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.Create(System.IO.Stream)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.CreateStreamXmlReaderSettings">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.Create(System.IO.Stream,System.Xml.XmlReaderSettings)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.CreateStreamXmlReaderSettingsString">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.Create(System.IO.Stream,System.Xml.XmlReaderSettings,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.CreateStreamXmlReaderSettingsXmlParserContext">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.Create(System.IO.Stream,System.Xml.XmlReaderSettings,System.Xml.XmlParserContext)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.CreateString">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.Create(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.CreateStringXmlReaderSettings">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.Create(System.String,System.Xml.XmlReaderSettings)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.CreateStringXmlReaderSettingsXmlParserContext">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.Create(System.String,System.Xml.XmlReaderSettings,System.Xml.XmlParserContext)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.CreateTextReader">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.Create(System.IO.TextReader)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.CreateTextReaderXmlReaderSettings">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.Create(System.IO.TextReader,System.Xml.XmlReaderSettings)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.CreateTextReaderXmlReaderSettingsString">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.Create(System.IO.TextReader,System.Xml.XmlReaderSettings,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.CreateTextReaderXmlReaderSettingsXmlParserContext">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.Create(System.IO.TextReader,System.Xml.XmlReaderSettings,System.Xml.XmlParserContext)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.CreateXmlReaderXmlReaderSettings">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.Create(System.Xml.XmlReader,System.Xml.XmlReaderSettings)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.DepthGet">
+            <summary>Sets the mole of <see cref="P:Src.XmlReaderEx.Depth"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.EOFGet">
+            <summary>Sets the mole of <see cref="P:Src.XmlReaderEx.EOF"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.GetAttach">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.GetAttach"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.GetAttributeInt32">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.GetAttribute(System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.GetAttributeString">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.GetAttribute(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.GetAttributeStringString">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.GetAttribute(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.Go">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.Go"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.HasValueGet">
+            <summary>Sets the mole of <see cref="P:Src.XmlReaderEx.HasValue"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.IsEmptyElementGet">
+            <summary>Sets the mole of <see cref="P:Src.XmlReaderEx.IsEmptyElement"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.LocalNameGet">
+            <summary>Sets the mole of <see cref="P:Src.XmlReaderEx.LocalName"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.LookupNamespaceString">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.LookupNamespace(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.MoveToAttributeString">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.MoveToAttribute(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.MoveToAttributeStringString">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.MoveToAttribute(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.MoveToElement">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.MoveToElement"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.MoveToFirstAttribute">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.MoveToFirstAttribute"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.MoveToNextAttribute">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.MoveToNextAttribute"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.MoveUp">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.MoveUp"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.NameTableGet">
+            <summary>Sets the mole of <see cref="P:Src.XmlReaderEx.NameTable"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.NamespaceURIGet">
+            <summary>Sets the mole of <see cref="P:Src.XmlReaderEx.NamespaceURI"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.NodeTypeGet">
+            <summary>Sets the mole of <see cref="P:Src.XmlReaderEx.NodeType"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.Pop">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.Pop"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.PrefixGet">
+            <summary>Sets the mole of <see cref="P:Src.XmlReaderEx.Prefix"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.Read">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.Read"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.ReadAttrToBooleanString">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.ReadAttrToBoolean(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.ReadAttrToCharString">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.ReadAttrToChar(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.ReadAttrToDateTimeString">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.ReadAttrToDateTime(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.ReadAttrToDecimalString">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.ReadAttrToDecimal(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.ReadAttrToDoubleString">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.ReadAttrToDouble(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.ReadAttrToInt16String">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.ReadAttrToInt16(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.ReadAttrToInt32String">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.ReadAttrToInt32(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.ReadAttrToInt64String">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.ReadAttrToInt64(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.ReadAttrToSByteString">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.ReadAttrToSByte(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.ReadAttrToSingleString">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.ReadAttrToSingle(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.ReadAttrToUInt16String">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.ReadAttrToUInt16(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.ReadAttrToUInt32String">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.ReadAttrToUInt32(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.ReadAttrToUInt64String">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.ReadAttrToUInt64(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.ReadAttributeValue">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.ReadAttributeValue"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.ReadStateGet">
+            <summary>Sets the mole of <see cref="P:Src.XmlReaderEx.ReadState"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.ResolveEntity">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.ResolveEntity"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.ValueGet">
+            <summary>Sets the mole of <see cref="P:Src.XmlReaderEx.Value"/>
+            </summary>
+        </member>
+        <member name="T:Src.Moles.MXmlReaderEx.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.AddParseStringAction">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.AddParse(System.String,Src.Action)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.AttachObject">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.Attach(System.Object)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.AttributeCountGet">
+            <summary>Sets the mole of <see cref="P:Src.XmlReaderEx.AttributeCount"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.BaseURIGet">
+            <summary>Sets the mole of <see cref="P:Src.XmlReaderEx.BaseURI"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.Close">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.Close"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.DepthGet">
+            <summary>Sets the mole of <see cref="P:Src.XmlReaderEx.Depth"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.EOFGet">
+            <summary>Sets the mole of <see cref="P:Src.XmlReaderEx.EOF"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.GetAttach">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.GetAttach"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.GetAttributeInt32">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.GetAttribute(System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.GetAttributeString">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.GetAttribute(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.GetAttributeStringString">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.GetAttribute(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.Go">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.Go"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.HasValueGet">
+            <summary>Sets the mole of <see cref="P:Src.XmlReaderEx.HasValue"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.IsEmptyElementGet">
+            <summary>Sets the mole of <see cref="P:Src.XmlReaderEx.IsEmptyElement"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.LocalNameGet">
+            <summary>Sets the mole of <see cref="P:Src.XmlReaderEx.LocalName"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.LookupNamespaceString">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.LookupNamespace(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.MoveToAttributeString">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.MoveToAttribute(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.MoveToAttributeStringString">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.MoveToAttribute(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.MoveToElement">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.MoveToElement"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.MoveToFirstAttribute">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.MoveToFirstAttribute"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.MoveToNextAttribute">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.MoveToNextAttribute"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.MoveUp">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.MoveUp"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.NameTableGet">
+            <summary>Sets the mole of <see cref="P:Src.XmlReaderEx.NameTable"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.NamespaceURIGet">
+            <summary>Sets the mole of <see cref="P:Src.XmlReaderEx.NamespaceURI"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.NodeTypeGet">
+            <summary>Sets the mole of <see cref="P:Src.XmlReaderEx.NodeType"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.Pop">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.Pop"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.PrefixGet">
+            <summary>Sets the mole of <see cref="P:Src.XmlReaderEx.Prefix"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.Read">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.Read"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.ReadAttrToBooleanString">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.ReadAttrToBoolean(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.ReadAttrToCharString">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.ReadAttrToChar(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.ReadAttrToDateTimeString">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.ReadAttrToDateTime(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.ReadAttrToDecimalString">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.ReadAttrToDecimal(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.ReadAttrToDoubleString">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.ReadAttrToDouble(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.ReadAttrToInt16String">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.ReadAttrToInt16(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.ReadAttrToInt32String">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.ReadAttrToInt32(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.ReadAttrToInt64String">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.ReadAttrToInt64(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.ReadAttrToSByteString">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.ReadAttrToSByte(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.ReadAttrToSingleString">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.ReadAttrToSingle(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.ReadAttrToUInt16String">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.ReadAttrToUInt16(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.ReadAttrToUInt32String">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.ReadAttrToUInt32(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.ReadAttrToUInt64String">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.ReadAttrToUInt64(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.ReadAttributeValue">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.ReadAttributeValue"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.ReadStateGet">
+            <summary>Sets the mole of <see cref="P:Src.XmlReaderEx.ReadState"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.ResolveEntity">
+            <summary>Sets the mole of <see cref="M:Src.XmlReaderEx.ResolveEntity"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MXmlReaderEx.AllInstances.ValueGet">
+            <summary>Sets the mole of <see cref="P:Src.XmlReaderEx.Value"/>
+            </summary>
         </member>
         <member name="T:Src.Moles.SCnDate">
             <summary>Stub type of <see cref="T:Src.CnDate"/>
@@ -1327,22 +1337,6 @@
         <member name="F:Src.Moles.SIParameterPicker.WhenObjectString">
             <summary>Sets the stub of <see cref="M:Src.IParameterPicker.When(System.Object,System.String)"/>
             </summary>
-        </member>
-        <member name="T:Src.Moles.SXmlParser">
-            <summary>Stub type of <see cref="T:Src.XmlParser"/>
-            .</summary>
-        </member>
-        <member name="M:Src.Moles.SXmlParser.#ctor(System.String)">
-            <summary>Initializes a new instance</summary>
-        </member>
-        <member name="M:Src.Moles.SXmlParser.InitializeStub">
-            <summary>Initializes a new instance of type SXmlParser</summary>
-        </member>
-        <member name="P:Src.Moles.SXmlParser.CallBase">
-            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
-        </member>
-        <member name="P:Src.Moles.SXmlParser.InstanceBehavior">
-            <summary>Gets or sets the instance behavior.</summary>
         </member>
         <member name="T:Src.Moles.SXmlParserException">
             <summary>Stub type of <see cref="T:Src.XmlParserException"/>
