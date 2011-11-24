@@ -18,4 +18,8 @@
 	<file name="XmlReaderEx.cs">
 		<depend file="FileHelper.cs"/>
 	</file>
+	<file name="ZipHelper.cs">
+		<depend file="ICSharpCode.SharpZipLib.dll"/>
+		<depend file="FileHelper.cs"/>
+	</file>
 </depends>

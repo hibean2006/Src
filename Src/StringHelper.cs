@@ -3,7 +3,7 @@
  * hibean2006@126.com
  * 2011-11-16 Created
  * 2011-11-17 zhb 修正：Between("abca","b","a") 返回 ""，现在返回为 "c"
- * 
+ * 2011-11-24 添加方法 RemoveLast
  * */
 
 using System;
@@ -59,6 +59,25 @@ namespace Src
             }
 
             return source.Substring(leftIndex + left.Length, rightIndex - leftIndex - left.Length);
+        }
+
+        /// <summary>
+        /// 如果目标以<see cref="ends"/>结尾，则移除
+        /// </summary>
+        /// <param name="source">源字符串</param>
+        /// <param name="ends">结尾的字符串</param>
+        /// <returns></returns>
+        public static string RemoveLast(string source, string ends)
+        {
+            if(source==null)
+            {
+                throw new ArgumentNullException("source");
+            }
+            if(source.EndsWith(ends))
+            {
+                return source.Remove(source.Length - ends.Length);
+            }
+            return source;
         }
     }
 }
