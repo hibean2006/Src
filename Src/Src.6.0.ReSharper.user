@@ -12,34 +12,23 @@
       <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:CryptorTest.cs" caret="3747" fromTop="9" />
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:IParameterPicker.cs" caret="0" fromTop="0" />
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:IMoreCheckAction.cs" caret="0" fromTop="0" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:Cryptor.cs" caret="0" fromTop="0" />
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:IParameterChecker.cs" caret="2" fromTop="1" />
-      <File id="d:杂项文件/f:Param.cs" caret="0" fromTop="0" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="0" fromTop="0" />
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:P.cs" caret="140" fromTop="3" />
-      <File id="d:杂项文件/f:Param.cs" caret="0" fromTop="0" />
-      <File id="d:杂项文件/f:Requires.cs" caret="0" fromTop="0" />
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:CnDate.cs" caret="2742" fromTop="25" />
       <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:CnDateTest.cs" caret="1030" fromTop="10" />
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:DbHelper.cs" caret="0" fromTop="0" />
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:XmlParserException.cs" caret="653" fromTop="14" />
       <File id="F1768189-DCD0-4D7C-AAAD-15C6C3747039/f:StringHelperTest.cs" caret="312" fromTop="8" />
       <File id="70DC1718-A114-4711-83DC-495AE3AE1124/f:App.config" caret="291" fromTop="11" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:depends.xml" caret="570" fromTop="18" />
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:Action.cs" caret="136" fromTop="7" />
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:XmlReaderEx.cs" caret="4833" fromTop="7" />
-      <File id="70DC1718-A114-4711-83DC-495AE3AE1124/f:Program.cs" caret="1362" fromTop="8" />
+      <File id="70DC1718-A114-4711-83DC-495AE3AE1124/f:Program.cs" caret="3571" fromTop="45" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:StringHelper.cs" caret="0" fromTop="0" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:ZipHelper.cs" caret="93" fromTop="3" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:depends.xml" caret="694" fromTop="13" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:Cryptor.cs" caret="35" fromTop="2" />
     </RecentFiles>
     <RecentEdits>
-      <File id="70DC1718-A114-4711-83DC-495AE3AE1124/f:Program.cs" caret="4253" fromTop="9" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:XmlReaderEx.cs" caret="9501" fromTop="8" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:XmlReaderEx.cs" caret="5206" fromTop="11" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:XmlReaderEx.cs" caret="5049" fromTop="13" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:depends.xml" caret="570" fromTop="18" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:XmlReaderEx.cs" caret="9232" fromTop="2" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:XmlReaderEx.cs" caret="10745" fromTop="10" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:XmlReaderEx.cs" caret="11688" fromTop="13" />
-      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:XmlReaderEx.cs" caret="11479" fromTop="13" />
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:XmlReaderEx.cs" caret="10629" fromTop="6" />
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:XmlReaderEx.cs" caret="11601" fromTop="7" />
       <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:XmlReaderEx.cs" caret="9934" fromTop="9" />
@@ -61,6 +50,15 @@
       <File id="70DC1718-A114-4711-83DC-495AE3AE1124/f:Program.cs" caret="3541" fromTop="16" />
       <File id="70DC1718-A114-4711-83DC-495AE3AE1124/f:Program.cs" caret="3737" fromTop="22" />
       <File id="70DC1718-A114-4711-83DC-495AE3AE1124/f:Program.cs" caret="873" fromTop="12" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:ZipHelper.cs" caret="3985" fromTop="135" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:ZipHelper.cs" caret="2464" fromTop="11" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:ZipHelper.cs" caret="161" fromTop="0" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:ZipHelper.cs" caret="2773" fromTop="11" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:ZipHelper.cs" caret="3102" fromTop="13" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:ZipHelper.cs" caret="88" fromTop="2" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:ZipHelper.cs" caret="911" fromTop="9" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:ZipHelper.cs" caret="1325" fromTop="12" />
+      <File id="8156309E-1156-45DF-9E86-B0AF43FF636D/f:depends.xml" caret="694" fromTop="13" />
     </RecentEdits>
   </RecentFiles>
   <CompletionStatisticsManager>
@@ -68,7 +66,7 @@
       <Item value="static" priority="286" />
       <Item value="&lt;see cref=&quot;&quot;/&gt;" priority="415" />
       <Item value="public" priority="1307" />
-      <Item value="string" priority="2489" />
+      <Item value="string" priority="2521" />
       <Item value="head" priority="31" />
       <Item value="tail" priority="31" />
       <Item value="&lt;example&gt;&lt;/example&gt;" priority="181" />
@@ -89,7 +87,7 @@
       <Item value="void" priority="414" />
       <Item value="GetPhysicalPath`0" priority="31" />
       <Item value="path" priority="223" />
-      <Item value="Path`0" priority="95" />
+      <Item value="Path`0" priority="127" />
       <Item value="physcialPath" priority="63" />
       <Item value="Directory`0" priority="63" />
       <Item value="dirPath" priority="95" />
@@ -304,7 +302,7 @@
       <Item value="Exception" priority="30" />
       <Item value="XmlParserException`0" priority="31" />
       <Item value="XmlParserException" priority="58" />
-      <Item value="FileHelper`0" priority="63" />
+      <Item value="FileHelper`0" priority="127" />
       <Item value="file" priority="94" />
       <Item value="using" priority="63" />
       <Item value="ExtXmlReader" priority="57" />
@@ -337,6 +335,8 @@
       <Item value="XmlReaderEx`0" priority="159" />
       <Item value="XmlReaderEx" priority="28" />
       <Item value="ResolveEventArgs`0" priority="31" />
+      <Item value="targetFileName" priority="31" />
+      <Item value="physicalFile" priority="31" />
     </ItemStatistics>
     <ItemStatistics item="Doc Comment tags">
       <Item value="&lt;see cref=&quot;&quot;/&gt;" priority="139" />
@@ -572,7 +572,8 @@
       <Item value="Add`0" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@Src.FileHelper">
-      <Item value="GetPhysicalPath`0" priority="53" />
+      <Item value="GetPhysicalPath`0" priority="80" />
+      <Item value="EnsureDirectory`0" priority="26" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:@Src.ExtXmlReader">
       <Item value="Create`0" priority="26" />

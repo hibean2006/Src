@@ -46,9 +46,13 @@
     <Compile Include="Cryptor.cs" />
     <Compile Include="DbConnectionNotFoundException.cs" />
     <Compile Include="DbHelper.cs" />
+    <Compile Include="DbHelperEx.cs" />
+    <Compile Include="DynamicMethodBuilder.cs" />
+    <Compile Include="EntityHelper.cs" />
     <Compile Include="FileHelper.cs" />
     <Compile Include="ICryptor.cs" />
     <Compile Include="IDbHelper.cs" />
+    <Compile Include="IDbHelperEx.cs" />
     <Compile Include="IMoreCheckAction.cs" />
     <Compile Include="IParameterChecker.cs" />
     <Compile Include="IParameterPicker.cs" />

@@ -59,6 +59,14 @@ namespace Src
         object[] First(string sql, params object[] values);
 
         /// <summary>
+        /// 读取第一行记录
+        /// </summary>
+        /// <param name="readAction">读取动作</param>
+        /// <param name="sql">sql语句，使用{0}占位，见<see cref="IDbHelper"/>示例</param>
+        /// <param name="values">参数值</param>
+        void ReadFirst(Action<IDataRecord> readAction, string sql, params object[] values);
+
+        /// <summary>
         /// 执行读取首条记录的第一项
         /// <seealso cref="IDbCommand.ExecuteScalar"/>
         /// </summary>
@@ -66,5 +74,49 @@ namespace Src
         /// <param name="values">参数值</param>
         /// <returns>首条记录的第一项</returns>
         object ExecuteScalar(string sql, params object[] values);
+
+        /// <summary>
+        /// 开始事务
+        /// </summary>
+        /// <returns><see cref="IDbConnection.BeginTransaction()"/></returns>
+        void BeginTransaction();
+
+        /// <summary>
+        /// 提交事务
+        /// </summary>
+        /// <returns><see cref="IDbTransaction.Commit()"/></returns>
+        void Commit();
+
+        /// <summary>
+        /// 回滚事务
+        /// </summary>
+        /// <returns><see cref="IDbTransaction.Rollback()"/></returns>
+        void Rollback();
+
+
+        /// <summary>
+        /// 是否Oracle数据库
+        /// </summary>
+        bool IsOracle { get; }
+
+        /// <summary>
+        /// 开始批处理（Sql语句相同，但是参数值不同）
+        /// </summary>
+        /// <param name="sql">sql语句，使用{0}占位，见<see cref="IDbHelper"/>示例</param>
+        /// <param name="parameterCount">参数的个数</param>
+        /// <returns><see cref="IBatchCommand"/>的实例</returns>
+        IBatchCommand BeginBatch(string sql, int parameterCount);
+    }
+
+    /// <summary>
+    /// 批量执行同一命令
+    /// </summary>
+    public interface IBatchCommand : IDisposable
+    {
+        /// <summary>
+        /// 执行语句<see cref="IDbCommand.ExecuteNonQuery"/>
+        /// </summary>
+        /// <returns>影响的行数</returns>
+        int Execute(params object[] values);
     }
 }

@@ -71,6 +71,8 @@ namespace Src
         #endregion
 
         private readonly IDbConnection connection;
+        private IDbTransaction transaction;
+        private int tranDept = 0;
         private readonly string provider;
 
         /// <summary>
@@ -111,9 +113,10 @@ namespace Src
         /// 初始化<see cref="DbHelper"/>的实例
         /// </summary>
         /// <param name="provider"><see cref="DbProviderFactories.GetFactory(string)"/></param>
-        private DbHelper(string provider)
+        protected DbHelper(string provider)
         {
             this.provider = provider;
+            IsOracle = provider.Contains("Oracle");
             connection = DbProviderFactories.GetFactory(provider).CreateConnection();
         }
 
@@ -167,6 +170,20 @@ namespace Src
             }
         }
 
+        public void ReadFirst(Action<IDataRecord> readAction, string sql, params object[] values)
+        {
+            using (var cmd = Prepare(sql, values))
+            {
+                using (var reader = cmd.ExecuteReader())
+                {
+                    if (reader.Read() && readAction != null)
+                    {
+                        readAction(reader);
+                    }
+                }
+            }
+        }
+
         public object ExecuteScalar(string sql, params object[] values)
         {
             using (var cmd = Prepare(sql, values))
@@ -175,12 +192,87 @@ namespace Src
             }
         }
 
+        public void BeginTransaction()
+        {
+            OpenConnection();
+            transaction = transaction ?? connection.BeginTransaction();
+            tranDept++;//支持嵌套Transaction
+        }
+
+        public void Commit()
+        {
+            if (transaction == null) throw new ApplicationException("并没有未开始事务，请调用 BeginTransaction");
+            tranDept--;
+            if (tranDept > 0) return;
+            //提交时，查找嵌套的深度
+            transaction.Commit();
+            transaction.Dispose();
+            transaction = null;
+        }
+
+        public void Rollback()
+        {
+            if (transaction == null) throw new ApplicationException("并没有未开始事务，请调用 BeginTransaction");
+            tranDept = 0;
+            //回滚时，立即全部回滚
+            transaction.Rollback();
+            transaction.Dispose();
+            transaction = null;
+        }
+
+        public bool IsOracle
+        {
+            get;
+            private set;
+        }
+
+        public IBatchCommand BeginBatch(string sql, int parameterCount)
+        {
+            var cmd = Prepare(sql, parameterCount);
+            cmd.Prepare();
+            return new BatchCommand(cmd);
+        }
+
+        private class BatchCommand : IBatchCommand
+        {
+            private readonly IDbCommand cmd;
+
+            public BatchCommand(IDbCommand cmd)
+            {
+                this.cmd = cmd;
+            }
+
+            #region Implementation of IDisposable
+
+            public void Dispose()
+            {
+                if (cmd != null)
+                {
+                    cmd.Dispose();
+                }
+            }
+
+            public int Execute(params object[] values)
+            {
+                SetParameterValue(values, cmd);
+                return cmd.ExecuteNonQuery();
+            }
+
+            #endregion
+        }
+
         #endregion
 
         #region Implementation of IDisposable
 
         public void Dispose()
         {
+            if (transaction != null)
+            {
+                transaction.Rollback();
+                transaction.Dispose();
+                transaction = null;
+            }
             if (connection != null)
             {
                 connection.Dispose();
@@ -190,44 +282,62 @@ namespace Src
         #endregion
 
         #region Prepare DbCommand
-        private IDbCommand Prepare(string sql, object[] values)
+        private IDbCommand Prepare(string sql, int count)
         {
             var cmd = connection.CreateCommand();
-            if (values != null && values.Length > 0)
+            cmd.Transaction = transaction;
+            if (count > 0)
             {
-                var names = new string[values.Length];
-                for (int i = 0; i < values.Length; i++)
+                var names = new string[count];
+                for (int i = 0; i < count; i++)
                 {
                     names[i] = CreateParameterName(i);
-                }
-                var parameters = new IDbDataParameter[values.Length];
-                for (int i = 0; i < values.Length; i++)
-                {
-                    parameters[i] = cmd.CreateParameter();
-                    parameters[i].ParameterName = names[i];
-                    parameters[i].Value = values[i] ?? DBNull.Value;
+                    var parameter = cmd.CreateParameter();
+                    parameter.ParameterName = names[i];
+                    cmd.Parameters.Add(parameter);
                 }
                 cmd.CommandText = String.Format(sql, names);
-                for (int i = 0; i < parameters.Length; i++)
-                {
-                    cmd.Parameters.Add(parameters[i]);
-                }
             }
             else
             {
                 cmd.CommandText = sql;
             }
-            //Open Connection
-            if (connection.State == ConnectionState.Closed || connection.State == ConnectionState.Broken)
-            {
-                if (string.IsNullOrEmpty(connection.ConnectionString))
-                {
-                    connection.ConnectionString = ConfigurationManager.ConnectionStrings[0].ConnectionString;
-                }
-                connection.Open();
-            }
+            OpenConnection();
 
             return cmd;
+        }
+
+        private void OpenConnection()
+        {
+            if (connection.State != ConnectionState.Closed && connection.State != ConnectionState.Broken) return;
+            if (string.IsNullOrEmpty(connection.ConnectionString))
+            {
+                connection.ConnectionString = ConfigurationManager.ConnectionStrings[0].ConnectionString;
+            }
+            connection.Open();
+        }
+
+        private IDbCommand Prepare(string sql, object[] values)
+        {
+            var cmd = Prepare(sql, values != null ? values.Length : -1);
+            SetParameterValue(values, cmd);
+            return cmd;
+        }
+
+        private static void SetParameterValue(object[] values, IDbCommand cmd)
+        {
+            if (cmd == null) throw new ArgumentNullException("cmd");
+            if (cmd.Parameters.Count == 0) return;
+            if (values == null) throw new ArgumentNullException("values");
+            if (values.Length != cmd.Parameters.Count)
+            {
+                throw new ArgumentException("values 数组长度与 cmd 中参数个数应保持一致");
+            }
+            for (int i = 0; i < values.Length; i++)
+            {
+                var dbParameter = (DbParameter)cmd.Parameters[i];
+                dbParameter.Value = values[i];
+            }
         }
 
         private string CreateParameterName(int position)
@@ -249,8 +359,10 @@ namespace Src
                 case MySql:
                     return string.Format("?p{0}", position);
             }
-            throw new NotSupportedException("DbHelper 尚不支持该数据库"); 
+            throw new NotSupportedException("DbHelper 尚不支持该数据库");
         }
         #endregion
     }
+
+
 }

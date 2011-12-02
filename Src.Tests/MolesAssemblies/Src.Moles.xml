@@ -405,6 +405,10 @@
             <summary>Sets the mole of <see cref="M:Src.DbHelper.Prepare(System.String,System.Object[])"/>
             </summary>
         </member>
+        <member name="P:Src.Moles.MDbHelper.ReadFirstActionOfIDataRecordStringObjectArray">
+            <summary>Sets the mole of <see cref="M:Src.DbHelper.ReadFirst(System.Action`1{System.Data.IDataRecord},System.String,System.Object[])"/>
+            </summary>
+        </member>
         <member name="T:Src.Moles.MDbHelper.AllInstances">
             <summary>Define moles for all instances members</summary>
         </member>
@@ -438,6 +442,1993 @@
         </member>
         <member name="P:Src.Moles.MDbHelper.AllInstances.PrepareStringObjectArray">
             <summary>Sets the mole of <see cref="M:Src.DbHelper.Prepare(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDbHelper.AllInstances.ReadFirstActionOfIDataRecordStringObjectArray">
+            <summary>Sets the mole of <see cref="M:Src.DbHelper.ReadFirst(System.Action`1{System.Data.IDataRecord},System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="T:Src.Moles.MDbHelperEx">
+            <summary>Mole type of <see cref="T:Src.DbHelperEx"/>
+            .</summary>
+        </member>
+        <member name="M:Src.Moles.MDbHelperEx.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Src.Moles.MDbHelperEx.#ctor(Src.DbHelperEx)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Src.Moles.MDbHelperEx.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Src.Moles.MDbHelperEx.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Src.Moles.MDbHelperEx.Bind(Src.IDbHelper)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Src.Moles.MDbHelperEx.Bind(Src.IDbHelperEx)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Src.Moles.MDbHelperEx.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="M:Src.Moles.MDbHelperEx.FirstObjectStringObjectArray``1(Microsoft.Moles.Framework.MolesDelegates.Func{System.String,System.Object[],``0})">
+            <summary>Sets the mole of <see cref="M:Src.DbHelperEx.FirstObject``1(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.MDbHelperEx.FirstValueStringObjectArray``1(Microsoft.Moles.Framework.MolesDelegates.Func{System.String,System.Object[],``0})">
+            <summary>Sets the mole of <see cref="M:Src.DbHelperEx.FirstValue``1(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.MDbHelperEx.GetObjectsStringObjectArray``1(Microsoft.Moles.Framework.MolesDelegates.Func{System.String,System.Object[],System.Collections.Generic.IEnumerable{``0}})">
+            <summary>Sets the mole of <see cref="M:Src.DbHelperEx.GetObjects``1(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.MDbHelperEx.GetValuesStringObjectArray``1(Microsoft.Moles.Framework.MolesDelegates.Func{System.String,System.Object[],System.Collections.Generic.IEnumerable{``0}})">
+            <summary>Sets the mole of <see cref="M:Src.DbHelperEx.GetValues``1(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDbHelperEx.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Src.Moles.MDbHelperEx.ConstructorString">
+            <summary>Sets the mole of <see cref="M:Src.DbHelperEx.#ctor(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDbHelperEx.Create">
+            <summary>Sets the mole of <see cref="M:Src.DbHelperEx.Create"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDbHelperEx.CreateStringString">
+            <summary>Sets the mole of <see cref="M:Src.DbHelperEx.Create(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="T:Src.Moles.MDbHelperEx.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="M:Src.Moles.MDbHelperEx.AllInstances.FirstObjectStringObjectArray``1(Microsoft.Moles.Framework.MolesDelegates.Func{Src.DbHelperEx,System.String,System.Object[],``0})">
+            <summary>Sets the mole of <see cref="M:Src.DbHelperEx.FirstObject``1(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.MDbHelperEx.AllInstances.FirstValueStringObjectArray``1(Microsoft.Moles.Framework.MolesDelegates.Func{Src.DbHelperEx,System.String,System.Object[],``0})">
+            <summary>Sets the mole of <see cref="M:Src.DbHelperEx.FirstValue``1(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.MDbHelperEx.AllInstances.GetObjectsStringObjectArray``1(Microsoft.Moles.Framework.MolesDelegates.Func{Src.DbHelperEx,System.String,System.Object[],System.Collections.Generic.IEnumerable{``0}})">
+            <summary>Sets the mole of <see cref="M:Src.DbHelperEx.GetObjects``1(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.MDbHelperEx.AllInstances.GetValuesStringObjectArray``1(Microsoft.Moles.Framework.MolesDelegates.Func{Src.DbHelperEx,System.String,System.Object[],System.Collections.Generic.IEnumerable{``0}})">
+            <summary>Sets the mole of <see cref="M:Src.DbHelperEx.GetValues``1(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="T:Src.Moles.MDynamicMethodBuilder">
+            <summary>Mole type of <see cref="T:Src.DynamicMethodBuilder"/>
+            .</summary>
+        </member>
+        <member name="M:Src.Moles.MDynamicMethodBuilder.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Src.Moles.MDynamicMethodBuilder.#ctor(Src.DynamicMethodBuilder)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Src.Moles.MDynamicMethodBuilder.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Src.Moles.MDynamicMethodBuilder.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Src.Moles.MDynamicMethodBuilder.CreateCopyAction``1(Microsoft.Moles.Framework.MolesDelegates.Func{System.Reflection.Emit.DynamicMethod})">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.CreateCopyAction``1"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Add">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Add"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Add_Ovf">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Add_Ovf"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Add_Ovf_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Add_Ovf_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.And">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.And"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Arglist">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Arglist"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Beq">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Beq"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Beq_S">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Beq_S"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Bge">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Bge"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Bge_S">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Bge_S"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Bge_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Bge_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Bge_Un_S">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Bge_Un_S"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Bgt">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Bgt"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Bgt_S">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Bgt_S"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Bgt_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Bgt_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Bgt_Un_S">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Bgt_Un_S"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ble">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ble"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ble_S">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ble_S"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ble_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ble_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ble_Un_S">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ble_Un_S"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Blt">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Blt"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Blt_SLabel">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Blt_S(System.Reflection.Emit.Label)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Blt_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Blt_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Blt_Un_S">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Blt_Un_S"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Bne_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Bne_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Bne_Un_S">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Bne_Un_S"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Box">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Box"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Br">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Br"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Br_SLabel">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Br_S(System.Reflection.Emit.Label)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Break">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Break"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Brfalse">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Brfalse"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Brfalse_S">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Brfalse_S"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Brtrue">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Brtrue"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Brtrue_SLabel">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Brtrue_S(System.Reflection.Emit.Label)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.CallMethodInfo">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Call(System.Reflection.MethodInfo)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Calli">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Calli"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.CallvirtMethodInfo">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Callvirt(System.Reflection.MethodInfo)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Castclass">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Castclass"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ceq">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ceq"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Cgt">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Cgt"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Cgt_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Cgt_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ckfinite">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ckfinite"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Clt">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Clt"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Clt_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Clt_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Constrained">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Constrained"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Constructor">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Conv_I">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_I"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Conv_I1">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_I1"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Conv_I2">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_I2"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Conv_I4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_I4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Conv_I8">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_I8"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Conv_Ovf_I">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_I"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Conv_Ovf_I1">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_I1"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Conv_Ovf_I1_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_I1_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Conv_Ovf_I2">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_I2"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Conv_Ovf_I2_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_I2_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Conv_Ovf_I4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_I4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Conv_Ovf_I4_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_I4_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Conv_Ovf_I8">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_I8"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Conv_Ovf_I8_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_I8_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Conv_Ovf_I_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_I_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Conv_Ovf_U">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_U"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Conv_Ovf_U1">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_U1"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Conv_Ovf_U1_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_U1_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Conv_Ovf_U2">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_U2"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Conv_Ovf_U2_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_U2_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Conv_Ovf_U4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_U4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Conv_Ovf_U4_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_U4_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Conv_Ovf_U8">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_U8"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Conv_Ovf_U8_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_U8_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Conv_Ovf_U_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_U_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Conv_R4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_R4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Conv_R8">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_R8"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Conv_R_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_R_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Conv_U">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_U"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Conv_U1">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_U1"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Conv_U2">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_U2"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Conv_U4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_U4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Conv_U8">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_U8"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Convert_ToType">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Convert_To(System.Type)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Cpblk">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Cpblk"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Cpobj">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Cpobj"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Div">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Div"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Div_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Div_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Dup">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Dup"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Emit_CheckParameterNullString">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Emit_CheckParameterNull(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Emit_SetPropertyValuePropertyInfo">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Emit_SetPropertyValue(System.Reflection.PropertyInfo)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Endfilter">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Endfilter"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Endfinally">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Endfinally"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Initblk">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Initblk"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Initobj">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Initobj"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Isinst">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Isinst"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Jmp">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Jmp"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldarg">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldarg"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldarg_0">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldarg_0"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldarg_1">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldarg_1"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldarg_2">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldarg_2"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldarg_3">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldarg_3"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldarg_S">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldarg_S"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldarga">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldarga"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldarga_S">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldarga_S"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldc_I4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldc_I4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldc_I4_0">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldc_I4_0"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldc_I4_1">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldc_I4_1"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldc_I4_2">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldc_I4_2"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldc_I4_3">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldc_I4_3"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldc_I4_4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldc_I4_4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldc_I4_5">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldc_I4_5"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldc_I4_6">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldc_I4_6"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldc_I4_7">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldc_I4_7"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldc_I4_8">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldc_I4_8"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldc_I4_M1">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldc_I4_M1"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldc_I4_S">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldc_I4_S"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldc_I8">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldc_I8"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldc_R4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldc_R4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldc_R8">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldc_R8"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldelem">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldelem"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldelem_I">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldelem_I"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldelem_I1">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldelem_I1"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldelem_I2">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldelem_I2"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldelem_I4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldelem_I4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldelem_I8">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldelem_I8"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldelem_R4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldelem_R4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldelem_R8">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldelem_R8"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldelem_Ref">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldelem_Ref"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldelem_U1">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldelem_U1"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldelem_U2">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldelem_U2"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldelem_U4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldelem_U4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldelema">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldelema"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldfld">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldfld"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldflda">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldflda"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldftn">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldftn"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldind_I">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldind_I"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldind_I1">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldind_I1"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldind_I2">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldind_I2"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldind_I4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldind_I4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldind_I8">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldind_I8"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldind_R4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldind_R4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldind_R8">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldind_R8"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldind_Ref">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldind_Ref"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldind_U1">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldind_U1"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldind_U2">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldind_U2"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldind_U4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldind_U4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldlen">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldlen"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldloc">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldloc"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldloc_0">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldloc_0"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldloc_1">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldloc_1"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldloc_2">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldloc_2"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldloc_3">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldloc_3"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldloc_S">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldloc_S"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldloca">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldloca"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldloca_S">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldloca_S"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldnull">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldnull"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldobj">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldobj"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldsfld">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldsfld"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldsflda">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldsflda"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.LdstrString">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldstr(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldtoken">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldtoken"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ldvirtftn">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldvirtftn"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Leave">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Leave"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Leave_S">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Leave_S"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Localloc">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Localloc"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.MarkLabelLabel">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.MarkLabel(System.Reflection.Emit.Label)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Mkrefany">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Mkrefany"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Mul">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Mul"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Mul_Ovf">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Mul_Ovf"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Mul_Ovf_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Mul_Ovf_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Neg">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Neg"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Newarr">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Newarr"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.NewobjConstructorInfo">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Newobj(System.Reflection.ConstructorInfo)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Nop">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Nop"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Not">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Not"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Or">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Or"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Pop">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Pop"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Prefix1">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Prefix1"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Prefix2">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Prefix2"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Prefix3">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Prefix3"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Prefix4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Prefix4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Prefix5">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Prefix5"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Prefix6">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Prefix6"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Prefix7">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Prefix7"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Prefixref">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Prefixref"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Readonly">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Readonly"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Refanytype">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Refanytype"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Refanyval">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Refanyval"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Rem">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Rem"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Rem_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Rem_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Ret">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ret"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Rethrow">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Rethrow"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Shl">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Shl"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Shr">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Shr"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Shr_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Shr_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Sizeof">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Sizeof"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Starg">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Starg"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Starg_S">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Starg_S"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Stelem">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stelem"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Stelem_I">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stelem_I"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Stelem_I1">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stelem_I1"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Stelem_I2">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stelem_I2"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Stelem_I4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stelem_I4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Stelem_I8">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stelem_I8"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Stelem_R4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stelem_R4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Stelem_R8">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stelem_R8"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Stelem_Ref">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stelem_Ref"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Stfld">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stfld"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Stind_I">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stind_I"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Stind_I1">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stind_I1"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Stind_I2">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stind_I2"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Stind_I4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stind_I4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Stind_I8">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stind_I8"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Stind_R4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stind_R4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Stind_R8">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stind_R8"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Stind_Ref">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stind_Ref"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Stloc">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stloc"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Stloc_0">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stloc_0"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Stloc_1">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stloc_1"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Stloc_2">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stloc_2"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Stloc_3">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stloc_3"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Stloc_S">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stloc_S"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Stobj">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stobj"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Stsfld">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stsfld"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Sub">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Sub"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Sub_Ovf">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Sub_Ovf"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Sub_Ovf_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Sub_Ovf_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Switch">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Switch"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Tailcall">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Tailcall"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Throw">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Throw"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Unaligned">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Unaligned"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Unbox">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Unbox"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Unbox_Any">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Unbox_Any"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Volatile">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Volatile"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.Xor">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Xor"/>
+            </summary>
+        </member>
+        <member name="T:Src.Moles.MDynamicMethodBuilder.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="M:Src.Moles.MDynamicMethodBuilder.AllInstances.CreateCopyAction``1(Microsoft.Moles.Framework.MolesDelegates.Func{Src.DynamicMethodBuilder,System.Reflection.Emit.DynamicMethod})">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.CreateCopyAction``1"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Add">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Add"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Add_Ovf">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Add_Ovf"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Add_Ovf_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Add_Ovf_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.And">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.And"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Arglist">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Arglist"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Beq">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Beq"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Beq_S">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Beq_S"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Bge">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Bge"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Bge_S">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Bge_S"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Bge_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Bge_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Bge_Un_S">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Bge_Un_S"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Bgt">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Bgt"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Bgt_S">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Bgt_S"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Bgt_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Bgt_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Bgt_Un_S">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Bgt_Un_S"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ble">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ble"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ble_S">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ble_S"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ble_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ble_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ble_Un_S">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ble_Un_S"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Blt">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Blt"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Blt_SLabel">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Blt_S(System.Reflection.Emit.Label)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Blt_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Blt_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Blt_Un_S">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Blt_Un_S"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Bne_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Bne_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Bne_Un_S">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Bne_Un_S"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Box">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Box"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Br">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Br"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Br_SLabel">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Br_S(System.Reflection.Emit.Label)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Break">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Break"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Brfalse">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Brfalse"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Brfalse_S">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Brfalse_S"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Brtrue">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Brtrue"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Brtrue_SLabel">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Brtrue_S(System.Reflection.Emit.Label)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.CallMethodInfo">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Call(System.Reflection.MethodInfo)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Calli">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Calli"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.CallvirtMethodInfo">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Callvirt(System.Reflection.MethodInfo)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Castclass">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Castclass"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ceq">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ceq"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Cgt">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Cgt"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Cgt_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Cgt_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ckfinite">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ckfinite"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Clt">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Clt"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Clt_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Clt_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Constrained">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Constrained"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Conv_I">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_I"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Conv_I1">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_I1"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Conv_I2">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_I2"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Conv_I4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_I4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Conv_I8">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_I8"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Conv_Ovf_I">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_I"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Conv_Ovf_I1">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_I1"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Conv_Ovf_I1_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_I1_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Conv_Ovf_I2">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_I2"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Conv_Ovf_I2_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_I2_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Conv_Ovf_I4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_I4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Conv_Ovf_I4_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_I4_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Conv_Ovf_I8">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_I8"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Conv_Ovf_I8_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_I8_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Conv_Ovf_I_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_I_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Conv_Ovf_U">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_U"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Conv_Ovf_U1">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_U1"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Conv_Ovf_U1_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_U1_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Conv_Ovf_U2">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_U2"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Conv_Ovf_U2_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_U2_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Conv_Ovf_U4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_U4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Conv_Ovf_U4_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_U4_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Conv_Ovf_U8">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_U8"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Conv_Ovf_U8_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_U8_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Conv_Ovf_U_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_Ovf_U_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Conv_R4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_R4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Conv_R8">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_R8"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Conv_R_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_R_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Conv_U">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_U"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Conv_U1">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_U1"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Conv_U2">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_U2"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Conv_U4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_U4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Conv_U8">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Conv_U8"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Convert_ToType">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Convert_To(System.Type)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Cpblk">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Cpblk"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Cpobj">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Cpobj"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Div">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Div"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Div_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Div_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Dup">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Dup"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Emit_CheckParameterNullString">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Emit_CheckParameterNull(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Emit_SetPropertyValuePropertyInfo">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Emit_SetPropertyValue(System.Reflection.PropertyInfo)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Endfilter">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Endfilter"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Endfinally">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Endfinally"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Initblk">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Initblk"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Initobj">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Initobj"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Isinst">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Isinst"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Jmp">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Jmp"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldarg">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldarg"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldarg_0">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldarg_0"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldarg_1">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldarg_1"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldarg_2">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldarg_2"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldarg_3">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldarg_3"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldarg_S">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldarg_S"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldarga">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldarga"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldarga_S">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldarga_S"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldc_I4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldc_I4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldc_I4_0">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldc_I4_0"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldc_I4_1">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldc_I4_1"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldc_I4_2">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldc_I4_2"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldc_I4_3">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldc_I4_3"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldc_I4_4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldc_I4_4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldc_I4_5">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldc_I4_5"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldc_I4_6">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldc_I4_6"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldc_I4_7">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldc_I4_7"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldc_I4_8">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldc_I4_8"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldc_I4_M1">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldc_I4_M1"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldc_I4_S">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldc_I4_S"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldc_I8">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldc_I8"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldc_R4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldc_R4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldc_R8">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldc_R8"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldelem">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldelem"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldelem_I">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldelem_I"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldelem_I1">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldelem_I1"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldelem_I2">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldelem_I2"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldelem_I4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldelem_I4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldelem_I8">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldelem_I8"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldelem_R4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldelem_R4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldelem_R8">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldelem_R8"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldelem_Ref">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldelem_Ref"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldelem_U1">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldelem_U1"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldelem_U2">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldelem_U2"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldelem_U4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldelem_U4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldelema">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldelema"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldfld">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldfld"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldflda">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldflda"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldftn">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldftn"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldind_I">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldind_I"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldind_I1">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldind_I1"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldind_I2">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldind_I2"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldind_I4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldind_I4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldind_I8">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldind_I8"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldind_R4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldind_R4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldind_R8">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldind_R8"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldind_Ref">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldind_Ref"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldind_U1">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldind_U1"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldind_U2">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldind_U2"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldind_U4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldind_U4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldlen">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldlen"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldloc">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldloc"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldloc_0">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldloc_0"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldloc_1">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldloc_1"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldloc_2">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldloc_2"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldloc_3">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldloc_3"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldloc_S">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldloc_S"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldloca">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldloca"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldloca_S">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldloca_S"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldnull">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldnull"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldobj">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldobj"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldsfld">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldsfld"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldsflda">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldsflda"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.LdstrString">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldstr(System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldtoken">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldtoken"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ldvirtftn">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ldvirtftn"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Leave">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Leave"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Leave_S">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Leave_S"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Localloc">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Localloc"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.MarkLabelLabel">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.MarkLabel(System.Reflection.Emit.Label)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Mkrefany">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Mkrefany"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Mul">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Mul"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Mul_Ovf">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Mul_Ovf"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Mul_Ovf_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Mul_Ovf_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Neg">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Neg"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Newarr">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Newarr"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.NewobjConstructorInfo">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Newobj(System.Reflection.ConstructorInfo)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Nop">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Nop"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Not">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Not"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Or">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Or"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Pop">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Pop"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Prefix1">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Prefix1"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Prefix2">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Prefix2"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Prefix3">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Prefix3"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Prefix4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Prefix4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Prefix5">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Prefix5"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Prefix6">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Prefix6"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Prefix7">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Prefix7"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Prefixref">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Prefixref"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Readonly">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Readonly"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Refanytype">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Refanytype"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Refanyval">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Refanyval"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Rem">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Rem"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Rem_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Rem_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Ret">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Ret"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Rethrow">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Rethrow"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Shl">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Shl"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Shr">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Shr"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Shr_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Shr_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Sizeof">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Sizeof"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Starg">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Starg"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Starg_S">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Starg_S"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Stelem">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stelem"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Stelem_I">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stelem_I"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Stelem_I1">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stelem_I1"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Stelem_I2">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stelem_I2"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Stelem_I4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stelem_I4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Stelem_I8">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stelem_I8"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Stelem_R4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stelem_R4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Stelem_R8">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stelem_R8"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Stelem_Ref">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stelem_Ref"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Stfld">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stfld"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Stind_I">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stind_I"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Stind_I1">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stind_I1"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Stind_I2">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stind_I2"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Stind_I4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stind_I4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Stind_I8">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stind_I8"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Stind_R4">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stind_R4"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Stind_R8">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stind_R8"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Stind_Ref">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stind_Ref"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Stloc">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stloc"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Stloc_0">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stloc_0"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Stloc_1">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stloc_1"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Stloc_2">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stloc_2"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Stloc_3">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stloc_3"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Stloc_S">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stloc_S"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Stobj">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stobj"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Stsfld">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Stsfld"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Sub">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Sub"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Sub_Ovf">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Sub_Ovf"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Sub_Ovf_Un">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Sub_Ovf_Un"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Switch">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Switch"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Tailcall">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Tailcall"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Throw">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Throw"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Unaligned">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Unaligned"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Unbox">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Unbox"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Unbox_Any">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Unbox_Any"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Volatile">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Volatile"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MDynamicMethodBuilder.AllInstances.Xor">
+            <summary>Sets the mole of <see cref="M:Src.DynamicMethodBuilder.Xor"/>
+            </summary>
+        </member>
+        <member name="T:Src.Moles.MEntityHelper`1">
+            <summary>Mole type of <see cref="T:Src.EntityHelper`1"/>
+            .</summary>
+        </member>
+        <member name="M:Src.Moles.MEntityHelper`1.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Src.Moles.MEntityHelper`1.#ctor(Src.EntityHelper{`0})">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Src.Moles.MEntityHelper`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Src.Moles.MEntityHelper`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Src.Moles.MEntityHelper`1.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Src.Moles.MEntityHelper`1.Constructor">
+            <summary>Sets the mole of <see cref="M:Src.EntityHelper`1.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MEntityHelper`1.ConvertFromIDataRecord">
+            <summary>Sets the mole of <see cref="M:Src.EntityHelper`1.ConvertFrom(System.Data.IDataRecord)"/>
+            </summary>
+        </member>
+        <member name="T:Src.Moles.MEntityHelper`1.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:Src.Moles.MEntityHelper`1.AllInstances.ConvertFromIDataRecord">
+            <summary>Sets the mole of <see cref="M:Src.EntityHelper`1.ConvertFrom(System.Data.IDataRecord)"/>
             </summary>
         </member>
         <member name="T:Src.Moles.MFileHelper">
@@ -536,6 +2527,10 @@
         </member>
         <member name="P:Src.Moles.MStringHelper.BetweenStringStringString">
             <summary>Sets the mole of <see cref="M:Src.StringHelper.Between(System.String,System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MStringHelper.RemoveLastStringString">
+            <summary>Sets the mole of <see cref="M:Src.StringHelper.RemoveLast(System.String,System.String)"/>
             </summary>
         </member>
         <member name="T:Src.Moles.MXmlParserException">
@@ -1016,6 +3011,52 @@
             <summary>Sets the mole of <see cref="P:Src.XmlReaderEx.Value"/>
             </summary>
         </member>
+        <member name="T:Src.Moles.MZipHelper">
+            <summary>Mole type of <see cref="T:Src.ZipHelper"/>
+            .</summary>
+        </member>
+        <member name="M:Src.Moles.MZipHelper.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:Src.Moles.MZipHelper.#ctor(Src.ZipHelper)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:Src.Moles.MZipHelper.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:Src.Moles.MZipHelper.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Src.Moles.MZipHelper.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:Src.Moles.MZipHelper.CompressStringString">
+            <summary>Sets the mole of <see cref="M:Src.ZipHelper.Compress(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MZipHelper.CompressStringStringArray">
+            <summary>Sets the mole of <see cref="M:Src.ZipHelper.Compress(System.String,System.String[])"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MZipHelper.CompressStringZipOutputStream">
+            <summary>Sets the mole of <see cref="M:Src.ZipHelper.Compress(System.String,ICSharpCode.SharpZipLib.Zip.ZipOutputStream)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MZipHelper.Constructor">
+            <summary>Sets the mole of <see cref="M:Src.ZipHelper.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MZipHelper.UnCompressStringString">
+            <summary>Sets the mole of <see cref="M:Src.ZipHelper.UnCompress(System.String,System.String)"/>
+            </summary>
+        </member>
+        <member name="P:Src.Moles.MZipHelper.UpCompressZipEntryStreamString">
+            <summary>Sets the mole of <see cref="M:Src.ZipHelper.UpCompress(ICSharpCode.SharpZipLib.Zip.ZipEntry,System.IO.Stream,System.String)"/>
+            </summary>
+        </member>
+        <member name="T:Src.Moles.MZipHelper.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
         <member name="T:Src.Moles.SCnDate">
             <summary>Stub type of <see cref="T:Src.CnDate"/>
             .</summary>
@@ -1054,6 +3095,70 @@
             <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
         </member>
         <member name="P:Src.Moles.SDbConnectionNotFoundException.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Src.Moles.SDbHelper">
+            <summary>Stub type of <see cref="T:Src.DbHelper"/>
+            .</summary>
+        </member>
+        <member name="M:Src.Moles.SDbHelper.#ctor(System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Src.Moles.SDbHelper.InitializeStub">
+            <summary>Initializes a new instance of type SDbHelper</summary>
+        </member>
+        <member name="P:Src.Moles.SDbHelper.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Src.Moles.SDbHelper.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Src.Moles.SDbHelperEx">
+            <summary>Stub type of <see cref="T:Src.DbHelperEx"/>
+            .</summary>
+        </member>
+        <member name="M:Src.Moles.SDbHelperEx.#ctor(System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Src.Moles.SDbHelperEx.InitializeStub">
+            <summary>Initializes a new instance of type SDbHelperEx</summary>
+        </member>
+        <member name="P:Src.Moles.SDbHelperEx.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Src.Moles.SDbHelperEx.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Src.Moles.SDynamicMethodBuilder">
+            <summary>Stub type of <see cref="T:Src.DynamicMethodBuilder"/>
+            .</summary>
+        </member>
+        <member name="M:Src.Moles.SDynamicMethodBuilder.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Src.Moles.SDynamicMethodBuilder.InitializeStub">
+            <summary>Initializes a new instance of type SDynamicMethodBuilder</summary>
+        </member>
+        <member name="P:Src.Moles.SDynamicMethodBuilder.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Src.Moles.SDynamicMethodBuilder.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Src.Moles.SEntityHelper`1">
+            <summary>Stub type of <see cref="T:Src.EntityHelper`1"/>
+            .</summary>
+        </member>
+        <member name="M:Src.Moles.SEntityHelper`1.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Src.Moles.SEntityHelper`1.InitializeStub">
+            <summary>Initializes a new instance of type SEntityHelper</summary>
+        </member>
+        <member name="P:Src.Moles.SEntityHelper`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Src.Moles.SEntityHelper`1.InstanceBehavior">
             <summary>Gets or sets the instance behavior.</summary>
         </member>
         <member name="T:Src.Moles.SFileHelper">
@@ -1158,6 +3263,10 @@
             <summary>Sets the stub of <see cref="M:Src.IDbHelper.First(System.String,System.Object[])"/>
             </summary>
         </member>
+        <member name="F:Src.Moles.SIDbHelper.ReadFirstActionOfIDataRecordStringObjectArray">
+            <summary>Sets the stub of <see cref="M:Src.IDbHelper.ReadFirst(System.Action`1{System.Data.IDataRecord},System.String,System.Object[])"/>
+            </summary>
+        </member>
         <member name="M:Src.Moles.SIDbHelper.s::Src#IDbHelper#Connect(System.String)">
             <summary>Sets the stub of <see cref="M:Src.IDbHelper.Connect(System.String)"/>
             </summary>
@@ -1178,7 +3287,102 @@
             <summary>Sets the stub of <see cref="M:Src.IDbHelper.First(System.String,System.Object[])"/>
             </summary>
         </member>
+        <member name="M:Src.Moles.SIDbHelper.s::Src#IDbHelper#ReadFirst(System.Action{System.Data.IDataRecord},System.String,System.Object[])">
+            <summary>Sets the stub of <see cref="M:Src.IDbHelper.ReadFirst(System.Action`1{System.Data.IDataRecord},System.String,System.Object[])"/>
+            </summary>
+        </member>
         <member name="M:Src.Moles.SIDbHelper.global::System#IDisposable#Dispose">
+            <summary>Sets the stub of <see cref="M:System.IDisposable.Dispose"/>
+            </summary>
+        </member>
+        <member name="T:Src.Moles.SIDbHelperEx">
+            <summary>Stub type of <see cref="T:Src.IDbHelperEx"/>
+            .</summary>
+        </member>
+        <member name="M:Src.Moles.SIDbHelperEx.#ctor">
+            <summary>Initializes a new instance of type SIDbHelperEx</summary>
+        </member>
+        <member name="F:Src.Moles.SIDbHelperEx.ConnectString">
+            <summary>Sets the stub of <see cref="M:Src.IDbHelper.Connect(System.String)"/>
+            </summary>
+        </member>
+        <member name="F:Src.Moles.SIDbHelperEx.Dispose">
+            <summary>Sets the stub of <see cref="M:System.IDisposable.Dispose"/>
+            </summary>
+        </member>
+        <member name="F:Src.Moles.SIDbHelperEx.ExecuteCommandStringObjectArray">
+            <summary>Sets the stub of <see cref="M:Src.IDbHelper.ExecuteCommand(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="F:Src.Moles.SIDbHelperEx.ExecuteReaderStringObjectArray">
+            <summary>Sets the stub of <see cref="M:Src.IDbHelper.ExecuteReader(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="F:Src.Moles.SIDbHelperEx.ExecuteScalarStringObjectArray">
+            <summary>Sets the stub of <see cref="M:Src.IDbHelper.ExecuteScalar(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIDbHelperEx.FirstObjectStringObjectArray``1(Microsoft.Moles.Framework.MolesDelegates.Func{System.String,System.Object[],``0})">
+            <summary>Sets stubs of FirstObject(String sql, Object[] values)</summary>
+        </member>
+        <member name="F:Src.Moles.SIDbHelperEx.FirstStringObjectArray">
+            <summary>Sets the stub of <see cref="M:Src.IDbHelper.First(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIDbHelperEx.FirstValueStringObjectArray``1(Microsoft.Moles.Framework.MolesDelegates.Func{System.String,System.Object[],``0})">
+            <summary>Sets stubs of FirstValue(String sql, Object[] values)</summary>
+        </member>
+        <member name="M:Src.Moles.SIDbHelperEx.GetObjectsStringObjectArray``1(Microsoft.Moles.Framework.MolesDelegates.Func{System.String,System.Object[],System.Collections.Generic.IEnumerable{``0}})">
+            <summary>Sets stubs of GetObjects(String sql, Object[] values)</summary>
+        </member>
+        <member name="M:Src.Moles.SIDbHelperEx.GetValuesStringObjectArray``1(Microsoft.Moles.Framework.MolesDelegates.Func{System.String,System.Object[],System.Collections.Generic.IEnumerable{``0}})">
+            <summary>Sets stubs of GetValues(String sql, Object[] values)</summary>
+        </member>
+        <member name="F:Src.Moles.SIDbHelperEx.ReadFirstActionOfIDataRecordStringObjectArray">
+            <summary>Sets the stub of <see cref="M:Src.IDbHelper.ReadFirst(System.Action`1{System.Data.IDataRecord},System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIDbHelperEx.s::Src#IDbHelper#Connect(System.String)">
+            <summary>Sets the stub of <see cref="M:Src.IDbHelper.Connect(System.String)"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIDbHelperEx.s::Src#IDbHelper#ExecuteCommand(System.String,System.Object[])">
+            <summary>Sets the stub of <see cref="M:Src.IDbHelper.ExecuteCommand(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIDbHelperEx.s::Src#IDbHelper#ExecuteReader(System.String,System.Object[])">
+            <summary>Sets the stub of <see cref="M:Src.IDbHelper.ExecuteReader(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIDbHelperEx.s::Src#IDbHelper#ExecuteScalar(System.String,System.Object[])">
+            <summary>Sets the stub of <see cref="M:Src.IDbHelper.ExecuteScalar(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIDbHelperEx.s::Src#IDbHelper#First(System.String,System.Object[])">
+            <summary>Sets the stub of <see cref="M:Src.IDbHelper.First(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIDbHelperEx.s::Src#IDbHelper#ReadFirst(System.Action{System.Data.IDataRecord},System.String,System.Object[])">
+            <summary>Sets the stub of <see cref="M:Src.IDbHelper.ReadFirst(System.Action`1{System.Data.IDataRecord},System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIDbHelperEx.s::Src#IDbHelperEx#FirstObject``1(System.String,System.Object[])">
+            <summary>Sets the stub of <see cref="M:Src.IDbHelperEx.FirstObject``1(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIDbHelperEx.s::Src#IDbHelperEx#FirstValue``1(System.String,System.Object[])">
+            <summary>Sets the stub of <see cref="M:Src.IDbHelperEx.FirstValue``1(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIDbHelperEx.s::Src#IDbHelperEx#GetObjects``1(System.String,System.Object[])">
+            <summary>Sets the stub of <see cref="M:Src.IDbHelperEx.GetObjects``1(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIDbHelperEx.s::Src#IDbHelperEx#GetValues``1(System.String,System.Object[])">
+            <summary>Sets the stub of <see cref="M:Src.IDbHelperEx.GetValues``1(System.String,System.Object[])"/>
+            </summary>
+        </member>
+        <member name="M:Src.Moles.SIDbHelperEx.global::System#IDisposable#Dispose">
             <summary>Sets the stub of <see cref="M:System.IDisposable.Dispose"/>
             </summary>
         </member>
@@ -1358,6 +3562,22 @@
             <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
         </member>
         <member name="P:Src.Moles.SXmlParserException.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:Src.Moles.SZipHelper">
+            <summary>Stub type of <see cref="T:Src.ZipHelper"/>
+            .</summary>
+        </member>
+        <member name="M:Src.Moles.SZipHelper.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Src.Moles.SZipHelper.InitializeStub">
+            <summary>Initializes a new instance of type SZipHelper</summary>
+        </member>
+        <member name="P:Src.Moles.SZipHelper.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Src.Moles.SZipHelper.InstanceBehavior">
             <summary>Gets or sets the instance behavior.</summary>
         </member>
     </members>
